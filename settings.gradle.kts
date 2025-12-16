@@ -9,5 +9,5 @@ plugins {
 
 
 
-rootProject.name = "info-systems-lab2"
+rootProject.name = "info-systems-lab3"
 include("file-service", "payara-service", "library-shared")

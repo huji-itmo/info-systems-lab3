@@ -16,7 +16,7 @@ description = "Demo project for Spring Boot"
 
 jib {
     to {
-        image="info-systems-lab2/file-service:jib-dev"
+        image="info-systems-lab3/file-service:jib-dev"
     }
 }
 

@@ -62,7 +62,7 @@ jobs:
       - name: Deploy via SCP
         env:
           SSHPASS: ${{ secrets.SSH_PASSWORD }}
-          DEPLOY_FOLDER: ~/info-systems-lab2
+          DEPLOY_FOLDER: ~/info-systems-lab3
         run: sshpass -e scp -P "${{ secrets.SSH_PORT || 22 }}" payara-service/build/libs/*.war "${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}":${{env.DEPLOY_FOLDER}}/
 
   deploy-run:
@@ -81,7 +81,7 @@ jobs:
       - name: Run payara
         env:
           SSHPASS: ${{ secrets.SSH_PASSWORD }}
-          DEPLOY_FOLDER: "~/info-systems-lab2"
+          DEPLOY_FOLDER: "~/info-systems-lab3"
         run: |
           sshpass -e ssh -p "${{ secrets.SSH_PORT || 22 }}" "${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}" \
           "pkill java 2>/dev/null || true; \

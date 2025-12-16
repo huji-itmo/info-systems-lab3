@@ -8,7 +8,7 @@ plugins {
 }
 
 jib {
-    to.image = "info-systems-lab2/payara-service:jib-dev"
+    to.image = "info-systems-lab3/payara-service:jib-dev"
     from.image = "payara/micro:6.2025.10-jdk17"
     container {
         appRoot = "/opt/payara/app"
