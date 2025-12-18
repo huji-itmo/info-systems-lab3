@@ -72,8 +72,6 @@ class ImportResource(
             validateImportRequests(importRequests)
             val results = processRequests(importRequests)
 
-//            kafkaBean.sendMessage(results.filterIsInstance<ImportResult.Success>().map { it.request })
-
             successfulCount = results.count { it is ImportResult.Success }
             val failedCount = results.count { it is ImportResult.Failure }
             historyStatus = if (failedCount == 0) ImportHistory.ImportStatus.SUCCESS

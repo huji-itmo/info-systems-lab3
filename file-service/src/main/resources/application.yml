@@ -5,23 +5,24 @@ spring:
     url: jdbc:postgresql://pg:5432/studs
     username: ${POSTGRES_USER}
     password: ${POSTGRES_PASSWORD}
-  kafka:
-    bootstrap-servers: "kafka:9092"
-    producer:
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.springframework.kafka.support.serializer.JacksonJsonSerializer
-    properties:
-      spring.json.trusted.packages: "package com.example.fileService.model"
+
   jpa:
     database: postgresql
     hibernate:
       ddl-auto: update
     show-sql: false
-
-  topics:
-    upload: "upload"
-
+    properties:
+      hibernate:
+        generate_statistics: true
+        cache:
+          use_second_level_cache: true
+          use_query_cache: true
+          sharedCache:
+            mode: ENABLE_SELECTIVE
+          region:
+            factory_class: infinispan
+          infinispan:
+            cfg: org/infinispan/hibernate/cache/commons/builder/infinispan-configs-local.xml
 logging:
   level:
     org.springframework: INFO
-    org.springframework.kafka: DEBUG
