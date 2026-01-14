@@ -1,0 +1,9002 @@
+[
+  {
+    "name": "Brother_VCCQ001",
+    "coordinatesId": 14,
+    "chapterId": 4,
+    "health": 28,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_XUZB002",
+    "coordinatesId": 16,
+    "chapterId": 30,
+    "health": 129,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_PKOE003",
+    "coordinatesId": 83,
+    "chapterId": 62,
+    "health": 76,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_EYNU004",
+    "coordinatesId": 74,
+    "chapterId": 100,
+    "health": 176,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ZCPU005",
+    "coordinatesId": 22,
+    "chapterId": 66,
+    "health": 66,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_SIMD006",
+    "coordinatesId": 15,
+    "chapterId": 5,
+    "health": 73,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_VFRN007",
+    "coordinatesId": 33,
+    "chapterId": 100,
+    "health": 142,
+    "loyal": false,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_NLDV008",
+    "coordinatesId": 77,
+    "chapterId": 26,
+    "health": 88,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_JTGC009",
+    "coordinatesId": 3,
+    "chapterId": 81,
+    "health": 58,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_CWMS010",
+    "coordinatesId": 36,
+    "chapterId": 1,
+    "health": 70,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_NKPZ011",
+    "coordinatesId": 41,
+    "chapterId": 34,
+    "health": 168,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_QAXP012",
+    "coordinatesId": 5,
+    "chapterId": 81,
+    "health": 173,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KKOA013",
+    "coordinatesId": 89,
+    "chapterId": 88,
+    "health": 186,
+    "loyal": false,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_DXSP014",
+    "coordinatesId": 98,
+    "chapterId": 34,
+    "health": 47,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_LAEO015",
+    "coordinatesId": 70,
+    "chapterId": 79,
+    "health": 86,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_WMZL016",
+    "coordinatesId": 44,
+    "chapterId": 45,
+    "health": 5,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_TKLF017",
+    "coordinatesId": 78,
+    "chapterId": 99,
+    "health": 199,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_KKFK018",
+    "coordinatesId": 42,
+    "chapterId": 14,
+    "health": 196,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_LHND019",
+    "coordinatesId": 8,
+    "chapterId": 52,
+    "health": 147,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_DBXJ020",
+    "coordinatesId": 53,
+    "chapterId": 42,
+    "health": 106,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_XOSI021",
+    "coordinatesId": 36,
+    "chapterId": 84,
+    "health": 63,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_UHZL022",
+    "coordinatesId": 92,
+    "chapterId": 17,
+    "health": 178,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_AXDO023",
+    "coordinatesId": 82,
+    "chapterId": 96,
+    "health": 25,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_KSMT024",
+    "coordinatesId": 47,
+    "chapterId": 19,
+    "health": 13,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_TMRY025",
+    "coordinatesId": 76,
+    "chapterId": 44,
+    "health": 70,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_DEWS026",
+    "coordinatesId": 38,
+    "chapterId": 11,
+    "health": 128,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_EYDV027",
+    "coordinatesId": 20,
+    "chapterId": 61,
+    "health": 73,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KXLE028",
+    "coordinatesId": 4,
+    "chapterId": 83,
+    "health": 136,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_CKOK029",
+    "coordinatesId": 39,
+    "chapterId": 44,
+    "health": 68,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_JWEZ030",
+    "coordinatesId": 77,
+    "chapterId": 52,
+    "health": 28,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_NPEM031",
+    "coordinatesId": 99,
+    "chapterId": 79,
+    "health": 22,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_DHKR032",
+    "coordinatesId": 23,
+    "chapterId": 67,
+    "health": 188,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_UTAB033",
+    "coordinatesId": 38,
+    "chapterId": 14,
+    "health": 135,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_DVBG034",
+    "coordinatesId": 63,
+    "chapterId": 75,
+    "health": 163,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_HZUJ035",
+    "coordinatesId": 54,
+    "chapterId": 96,
+    "health": 93,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_TUFG036",
+    "coordinatesId": 88,
+    "chapterId": 81,
+    "health": 35,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ZFDI037",
+    "coordinatesId": 38,
+    "chapterId": 33,
+    "health": 149,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_UMCD038",
+    "coordinatesId": 56,
+    "chapterId": 2,
+    "health": 3,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_KMAJ039",
+    "coordinatesId": 39,
+    "chapterId": 74,
+    "health": 195,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ZFIR040",
+    "coordinatesId": 30,
+    "chapterId": 45,
+    "health": 154,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_VQKT041",
+    "coordinatesId": 11,
+    "chapterId": 87,
+    "health": 19,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_DBID042",
+    "coordinatesId": 68,
+    "chapterId": 42,
+    "health": 143,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_NMVJ043",
+    "coordinatesId": 99,
+    "chapterId": 16,
+    "health": 70,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_RVKI044",
+    "coordinatesId": 81,
+    "chapterId": 5,
+    "health": 65,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_MJDD045",
+    "coordinatesId": 81,
+    "chapterId": 20,
+    "health": 93,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_FCDC046",
+    "coordinatesId": 27,
+    "chapterId": 60,
+    "health": 165,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_VWLF047",
+    "coordinatesId": 73,
+    "chapterId": 19,
+    "health": 2,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_EAJW048",
+    "coordinatesId": 96,
+    "chapterId": 84,
+    "health": 198,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_TRCU049",
+    "coordinatesId": 98,
+    "chapterId": 51,
+    "health": 158,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_LRCG050",
+    "coordinatesId": 13,
+    "chapterId": 76,
+    "health": 110,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_HKSW051",
+    "coordinatesId": 69,
+    "chapterId": 75,
+    "health": 41,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_IGPC052",
+    "coordinatesId": 97,
+    "chapterId": 86,
+    "health": 167,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_IFVQ053",
+    "coordinatesId": 5,
+    "chapterId": 28,
+    "health": 45,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_OWWW054",
+    "coordinatesId": 21,
+    "chapterId": 75,
+    "health": 49,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_RBJT055",
+    "coordinatesId": 56,
+    "chapterId": 15,
+    "health": 118,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_MCEL056",
+    "coordinatesId": 93,
+    "chapterId": 25,
+    "health": 112,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_XOEB057",
+    "coordinatesId": 2,
+    "chapterId": 76,
+    "health": 62,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_CSYK058",
+    "coordinatesId": 30,
+    "chapterId": 21,
+    "health": 152,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_JQSA059",
+    "coordinatesId": 17,
+    "chapterId": 55,
+    "health": 75,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_PACD060",
+    "coordinatesId": 65,
+    "chapterId": 60,
+    "health": 18,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_NVAG061",
+    "coordinatesId": 67,
+    "chapterId": 78,
+    "health": 36,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_NKSS062",
+    "coordinatesId": 79,
+    "chapterId": 10,
+    "health": 155,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_HLRP063",
+    "coordinatesId": 89,
+    "chapterId": 66,
+    "health": 175,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_XSOM064",
+    "coordinatesId": 29,
+    "chapterId": 34,
+    "health": 153,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ZUZF065",
+    "coordinatesId": 9,
+    "chapterId": 55,
+    "health": 107,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_NICA066",
+    "coordinatesId": 95,
+    "chapterId": 27,
+    "health": 20,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_TJFC067",
+    "coordinatesId": 14,
+    "chapterId": 71,
+    "health": 122,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ASUO068",
+    "coordinatesId": 5,
+    "chapterId": 59,
+    "health": 15,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ENYF069",
+    "coordinatesId": 82,
+    "chapterId": 56,
+    "health": 79,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VMJJ070",
+    "coordinatesId": 63,
+    "chapterId": 82,
+    "health": 60,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_IUCE071",
+    "coordinatesId": 8,
+    "chapterId": 50,
+    "health": 14,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_WGNY072",
+    "coordinatesId": 64,
+    "chapterId": 55,
+    "health": 106,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KFGB073",
+    "coordinatesId": 38,
+    "chapterId": 84,
+    "health": 138,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_LPDI074",
+    "coordinatesId": 23,
+    "chapterId": 53,
+    "health": 15,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_YZCD075",
+    "coordinatesId": 6,
+    "chapterId": 88,
+    "health": 176,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_VRLE076",
+    "coordinatesId": 50,
+    "chapterId": 73,
+    "health": 125,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_FSEI077",
+    "coordinatesId": 93,
+    "chapterId": 98,
+    "health": 118,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_YIBB078",
+    "coordinatesId": 95,
+    "chapterId": 6,
+    "health": 3,
+    "loyal": false,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_SPTS079",
+    "coordinatesId": 40,
+    "chapterId": 52,
+    "health": 57,
+    "loyal": true,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_VUAX080",
+    "coordinatesId": 23,
+    "chapterId": 96,
+    "health": 113,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_FAXS081",
+    "coordinatesId": 8,
+    "chapterId": 19,
+    "health": 150,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YUEX082",
+    "coordinatesId": 51,
+    "chapterId": 35,
+    "health": 184,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_GOED083",
+    "coordinatesId": 10,
+    "chapterId": 8,
+    "health": 71,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_RAKL084",
+    "coordinatesId": 15,
+    "chapterId": 64,
+    "health": 75,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_OGES085",
+    "coordinatesId": 4,
+    "chapterId": 24,
+    "health": 5,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_XMOK086",
+    "coordinatesId": 43,
+    "chapterId": 15,
+    "health": 23,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_UCDW087",
+    "coordinatesId": 13,
+    "chapterId": 50,
+    "health": 6,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_SVMU088",
+    "coordinatesId": 84,
+    "chapterId": 31,
+    "health": 155,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_AJXZ089",
+    "coordinatesId": 42,
+    "chapterId": 35,
+    "health": 198,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_BKFF090",
+    "coordinatesId": 85,
+    "chapterId": 60,
+    "health": 107,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_AIFX091",
+    "coordinatesId": 67,
+    "chapterId": 54,
+    "health": 110,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_DYMO092",
+    "coordinatesId": 21,
+    "chapterId": 20,
+    "health": 86,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_JEXJ093",
+    "coordinatesId": 57,
+    "chapterId": 70,
+    "health": 196,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_XIAD094",
+    "coordinatesId": 63,
+    "chapterId": 54,
+    "health": 102,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_VRDO095",
+    "coordinatesId": 21,
+    "chapterId": 91,
+    "health": 187,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_MAOU096",
+    "coordinatesId": 63,
+    "chapterId": 10,
+    "health": 182,
+    "loyal": true,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_NWDX097",
+    "coordinatesId": 27,
+    "chapterId": 16,
+    "health": 12,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_YBMI098",
+    "coordinatesId": 99,
+    "chapterId": 83,
+    "health": 157,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_NLOL099",
+    "coordinatesId": 79,
+    "chapterId": 47,
+    "health": 150,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_COBS100",
+    "coordinatesId": 91,
+    "chapterId": 62,
+    "health": 2,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_HPDA101",
+    "coordinatesId": 97,
+    "chapterId": 81,
+    "health": 165,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_SQQQ102",
+    "coordinatesId": 44,
+    "chapterId": 16,
+    "health": 120,
+    "loyal": null,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_IVKE103",
+    "coordinatesId": 9,
+    "chapterId": 49,
+    "health": 175,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_CSAY104",
+    "coordinatesId": 72,
+    "chapterId": 89,
+    "health": 137,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_VKLZ105",
+    "coordinatesId": 52,
+    "chapterId": 21,
+    "health": 105,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_NSED106",
+    "coordinatesId": 83,
+    "chapterId": 45,
+    "health": 100,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_KZYR107",
+    "coordinatesId": 82,
+    "chapterId": 51,
+    "health": 117,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_QPSE108",
+    "coordinatesId": 23,
+    "chapterId": 56,
+    "health": 106,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_UFNX109",
+    "coordinatesId": 81,
+    "chapterId": 37,
+    "health": 200,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_JPPN110",
+    "coordinatesId": 47,
+    "chapterId": 37,
+    "health": 146,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_VAUW111",
+    "coordinatesId": 88,
+    "chapterId": 77,
+    "health": 94,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_RAKW112",
+    "coordinatesId": 49,
+    "chapterId": 17,
+    "health": 44,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_HXUO113",
+    "coordinatesId": 42,
+    "chapterId": 79,
+    "health": 24,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_XGSH114",
+    "coordinatesId": 96,
+    "chapterId": 31,
+    "health": 85,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_CODY115",
+    "coordinatesId": 75,
+    "chapterId": 5,
+    "health": 187,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_OZYL116",
+    "coordinatesId": 50,
+    "chapterId": 99,
+    "health": 114,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_LVXI117",
+    "coordinatesId": 69,
+    "chapterId": 23,
+    "health": 146,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_TJOR118",
+    "coordinatesId": 9,
+    "chapterId": 4,
+    "health": 158,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_HVFD119",
+    "coordinatesId": 16,
+    "chapterId": 47,
+    "health": 177,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_IXAM120",
+    "coordinatesId": 9,
+    "chapterId": 92,
+    "health": 30,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_KQGT121",
+    "coordinatesId": 85,
+    "chapterId": 99,
+    "health": 197,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_OTKH122",
+    "coordinatesId": 20,
+    "chapterId": 22,
+    "health": 22,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_DYDZ123",
+    "coordinatesId": 74,
+    "chapterId": 73,
+    "health": 119,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_VTXM124",
+    "coordinatesId": 41,
+    "chapterId": 78,
+    "health": 126,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_WAHT125",
+    "coordinatesId": 67,
+    "chapterId": 11,
+    "health": 190,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_NMBF126",
+    "coordinatesId": 41,
+    "chapterId": 98,
+    "health": 74,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_VVZA127",
+    "coordinatesId": 84,
+    "chapterId": 72,
+    "health": 144,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_FYVR128",
+    "coordinatesId": 11,
+    "chapterId": 9,
+    "health": 175,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_SBQZ129",
+    "coordinatesId": 37,
+    "chapterId": 27,
+    "health": 155,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_XKYA130",
+    "coordinatesId": 7,
+    "chapterId": 68,
+    "health": 19,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_PLJE131",
+    "coordinatesId": 29,
+    "chapterId": 19,
+    "health": 13,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VRSQ132",
+    "coordinatesId": 20,
+    "chapterId": 64,
+    "health": 153,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_UFDJ133",
+    "coordinatesId": 66,
+    "chapterId": 24,
+    "health": 190,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_QYKN134",
+    "coordinatesId": 62,
+    "chapterId": 72,
+    "health": 72,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_YJDL135",
+    "coordinatesId": 91,
+    "chapterId": 48,
+    "health": 188,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_MRGI136",
+    "coordinatesId": 35,
+    "chapterId": 51,
+    "health": 120,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_CLYQ137",
+    "coordinatesId": 40,
+    "chapterId": 19,
+    "health": 88,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_TJVN138",
+    "coordinatesId": 65,
+    "chapterId": 23,
+    "health": 35,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_DWMP139",
+    "coordinatesId": 68,
+    "chapterId": 64,
+    "health": 162,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_KGCA140",
+    "coordinatesId": 45,
+    "chapterId": 19,
+    "health": 57,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_SUNW141",
+    "coordinatesId": 79,
+    "chapterId": 17,
+    "health": 185,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_NRHY142",
+    "coordinatesId": 36,
+    "chapterId": 97,
+    "health": 4,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_TAIF143",
+    "coordinatesId": 2,
+    "chapterId": 19,
+    "health": 10,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_VDUK144",
+    "coordinatesId": 86,
+    "chapterId": 55,
+    "health": 22,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_UXHG145",
+    "coordinatesId": 45,
+    "chapterId": 71,
+    "health": 122,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RYCU146",
+    "coordinatesId": 75,
+    "chapterId": 29,
+    "health": 2,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_LPAB147",
+    "coordinatesId": 46,
+    "chapterId": 41,
+    "health": 78,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_AGEX148",
+    "coordinatesId": 79,
+    "chapterId": 8,
+    "health": 99,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_FPQL149",
+    "coordinatesId": 2,
+    "chapterId": 80,
+    "health": 38,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_OUUJ150",
+    "coordinatesId": 13,
+    "chapterId": 92,
+    "health": 141,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_VCYM151",
+    "coordinatesId": 22,
+    "chapterId": 4,
+    "health": 75,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_VHXB152",
+    "coordinatesId": 79,
+    "chapterId": 93,
+    "health": 11,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_DICZ153",
+    "coordinatesId": 12,
+    "chapterId": 2,
+    "health": 45,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_RGGL154",
+    "coordinatesId": 35,
+    "chapterId": 97,
+    "health": 97,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ZYVP155",
+    "coordinatesId": 83,
+    "chapterId": 84,
+    "health": 162,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_XFVJ156",
+    "coordinatesId": 78,
+    "chapterId": 24,
+    "health": 158,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ABCK157",
+    "coordinatesId": 44,
+    "chapterId": 76,
+    "health": 119,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_XMPW158",
+    "coordinatesId": 48,
+    "chapterId": 100,
+    "health": 162,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ARTH159",
+    "coordinatesId": 97,
+    "chapterId": 42,
+    "health": 139,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_UXPP160",
+    "coordinatesId": 57,
+    "chapterId": 76,
+    "health": 149,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_GBHY161",
+    "coordinatesId": 49,
+    "chapterId": 91,
+    "health": 154,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_REKW162",
+    "coordinatesId": 99,
+    "chapterId": 87,
+    "health": 178,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_UTIJ163",
+    "coordinatesId": 61,
+    "chapterId": 23,
+    "health": 70,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_XLWM164",
+    "coordinatesId": 32,
+    "chapterId": 83,
+    "health": 180,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_AKLF165",
+    "coordinatesId": 21,
+    "chapterId": 59,
+    "health": 62,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ZGNG166",
+    "coordinatesId": 85,
+    "chapterId": 19,
+    "health": 193,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TSVK167",
+    "coordinatesId": 75,
+    "chapterId": 23,
+    "health": 6,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ODKM168",
+    "coordinatesId": 51,
+    "chapterId": 26,
+    "health": 20,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_CRLN169",
+    "coordinatesId": 62,
+    "chapterId": 16,
+    "health": 18,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_CSLO170",
+    "coordinatesId": 41,
+    "chapterId": 88,
+    "health": 61,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_JLVF171",
+    "coordinatesId": 50,
+    "chapterId": 59,
+    "health": 80,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ZATW172",
+    "coordinatesId": 9,
+    "chapterId": 13,
+    "health": 96,
+    "loyal": null,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PBMC173",
+    "coordinatesId": 49,
+    "chapterId": 28,
+    "health": 164,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_EVSL174",
+    "coordinatesId": 94,
+    "chapterId": 73,
+    "health": 169,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_LRXC175",
+    "coordinatesId": 45,
+    "chapterId": 97,
+    "health": 137,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ICXZ176",
+    "coordinatesId": 89,
+    "chapterId": 5,
+    "health": 166,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_PFVH177",
+    "coordinatesId": 3,
+    "chapterId": 15,
+    "health": 65,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_TMNW178",
+    "coordinatesId": 16,
+    "chapterId": 16,
+    "health": 81,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_OZCF179",
+    "coordinatesId": 18,
+    "chapterId": 98,
+    "health": 88,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_DFEO180",
+    "coordinatesId": 79,
+    "chapterId": 99,
+    "health": 9,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_DHYL181",
+    "coordinatesId": 84,
+    "chapterId": 34,
+    "health": 59,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_RGPZ182",
+    "coordinatesId": 78,
+    "chapterId": 72,
+    "health": 104,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_CKCA183",
+    "coordinatesId": 64,
+    "chapterId": 23,
+    "health": 69,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_MEYL184",
+    "coordinatesId": 52,
+    "chapterId": 15,
+    "health": 104,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_WMBZ185",
+    "coordinatesId": 32,
+    "chapterId": 64,
+    "health": 106,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BUTN186",
+    "coordinatesId": 71,
+    "chapterId": 84,
+    "health": 48,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_OTWA187",
+    "coordinatesId": 70,
+    "chapterId": 76,
+    "health": 152,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_WPVT188",
+    "coordinatesId": 60,
+    "chapterId": 90,
+    "health": 24,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_VGRE189",
+    "coordinatesId": 45,
+    "chapterId": 50,
+    "health": 141,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_FWNL190",
+    "coordinatesId": 82,
+    "chapterId": 19,
+    "health": 70,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_OJBK191",
+    "coordinatesId": 23,
+    "chapterId": 24,
+    "health": 43,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_KIVH192",
+    "coordinatesId": 49,
+    "chapterId": 2,
+    "health": 77,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_UHZD193",
+    "coordinatesId": 36,
+    "chapterId": 11,
+    "health": 42,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_PHBJ194",
+    "coordinatesId": 64,
+    "chapterId": 63,
+    "health": 100,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_UQXN195",
+    "coordinatesId": 14,
+    "chapterId": 23,
+    "health": 100,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_OUZL196",
+    "coordinatesId": 8,
+    "chapterId": 41,
+    "health": 148,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_HHXU197",
+    "coordinatesId": 15,
+    "chapterId": 76,
+    "health": 21,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_XSXK198",
+    "coordinatesId": 40,
+    "chapterId": 54,
+    "health": 132,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_TAXO199",
+    "coordinatesId": 32,
+    "chapterId": 44,
+    "health": 30,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_EPXN200",
+    "coordinatesId": 68,
+    "chapterId": 23,
+    "health": 195,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_WBFV201",
+    "coordinatesId": 89,
+    "chapterId": 86,
+    "health": 116,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RKYG202",
+    "coordinatesId": 46,
+    "chapterId": 6,
+    "health": 12,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_MSKR203",
+    "coordinatesId": 66,
+    "chapterId": 93,
+    "health": 61,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_WZUM204",
+    "coordinatesId": 33,
+    "chapterId": 9,
+    "health": 24,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ZRVV205",
+    "coordinatesId": 11,
+    "chapterId": 90,
+    "health": 29,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_JXVR206",
+    "coordinatesId": 45,
+    "chapterId": 80,
+    "health": 82,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_VUIJ207",
+    "coordinatesId": 58,
+    "chapterId": 32,
+    "health": 175,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_AHIO208",
+    "coordinatesId": 61,
+    "chapterId": 57,
+    "health": 169,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_JIJY209",
+    "coordinatesId": 27,
+    "chapterId": 49,
+    "health": 183,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_FONN210",
+    "coordinatesId": 94,
+    "chapterId": 93,
+    "health": 172,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_KAKM211",
+    "coordinatesId": 99,
+    "chapterId": 51,
+    "health": 106,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_QPZT212",
+    "coordinatesId": 19,
+    "chapterId": 3,
+    "health": 112,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_FYVP213",
+    "coordinatesId": 36,
+    "chapterId": 58,
+    "health": 109,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_QWRH214",
+    "coordinatesId": 22,
+    "chapterId": 25,
+    "health": 134,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_RKEB215",
+    "coordinatesId": 53,
+    "chapterId": 68,
+    "health": 10,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_RFBS216",
+    "coordinatesId": 54,
+    "chapterId": 62,
+    "health": 60,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_EIXD217",
+    "coordinatesId": 64,
+    "chapterId": 49,
+    "health": 189,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_PDYD218",
+    "coordinatesId": 66,
+    "chapterId": 76,
+    "health": 176,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_SPBT219",
+    "coordinatesId": 11,
+    "chapterId": 59,
+    "health": 76,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_JJUM220",
+    "coordinatesId": 14,
+    "chapterId": 80,
+    "health": 76,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YIYI221",
+    "coordinatesId": 66,
+    "chapterId": 79,
+    "health": 62,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TPNL222",
+    "coordinatesId": 32,
+    "chapterId": 73,
+    "health": 93,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_BYLF223",
+    "coordinatesId": 39,
+    "chapterId": 91,
+    "health": 33,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YBYA224",
+    "coordinatesId": 88,
+    "chapterId": 45,
+    "health": 122,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_OWCX225",
+    "coordinatesId": 27,
+    "chapterId": 45,
+    "health": 40,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_IBUK226",
+    "coordinatesId": 68,
+    "chapterId": 22,
+    "health": 113,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_TJKM227",
+    "coordinatesId": 1,
+    "chapterId": 71,
+    "health": 108,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_GEJQ228",
+    "coordinatesId": 77,
+    "chapterId": 8,
+    "health": 4,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_JLML229",
+    "coordinatesId": 66,
+    "chapterId": 40,
+    "health": 119,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_FNYJ230",
+    "coordinatesId": 21,
+    "chapterId": 20,
+    "health": 30,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_MCTN231",
+    "coordinatesId": 69,
+    "chapterId": 3,
+    "health": 66,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_LOLY232",
+    "coordinatesId": 88,
+    "chapterId": 53,
+    "health": 88,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_OMDB233",
+    "coordinatesId": 91,
+    "chapterId": 7,
+    "health": 6,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_KVNW234",
+    "coordinatesId": 59,
+    "chapterId": 63,
+    "health": 199,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_WSVZ235",
+    "coordinatesId": 55,
+    "chapterId": 45,
+    "health": 48,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VPQT236",
+    "coordinatesId": 34,
+    "chapterId": 66,
+    "health": 139,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_FTDI237",
+    "coordinatesId": 59,
+    "chapterId": 96,
+    "health": 54,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_XFZG238",
+    "coordinatesId": 68,
+    "chapterId": 99,
+    "health": 200,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YFGJ239",
+    "coordinatesId": 79,
+    "chapterId": 64,
+    "health": 43,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_DDDT240",
+    "coordinatesId": 64,
+    "chapterId": 70,
+    "health": 127,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ZPZK241",
+    "coordinatesId": 12,
+    "chapterId": 50,
+    "health": 133,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_SFLK242",
+    "coordinatesId": 60,
+    "chapterId": 78,
+    "health": 190,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_NCMR243",
+    "coordinatesId": 96,
+    "chapterId": 30,
+    "health": 34,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VMZB244",
+    "coordinatesId": 56,
+    "chapterId": 10,
+    "health": 77,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_HJBL245",
+    "coordinatesId": 26,
+    "chapterId": 3,
+    "health": 9,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ADFS246",
+    "coordinatesId": 95,
+    "chapterId": 41,
+    "health": 47,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_VMYO247",
+    "coordinatesId": 6,
+    "chapterId": 100,
+    "health": 9,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_YGBU248",
+    "coordinatesId": 28,
+    "chapterId": 66,
+    "health": 143,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_HEOQ249",
+    "coordinatesId": 87,
+    "chapterId": 57,
+    "health": 24,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_SBXY250",
+    "coordinatesId": 3,
+    "chapterId": 38,
+    "health": 133,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_QDGD251",
+    "coordinatesId": 82,
+    "chapterId": 98,
+    "health": 134,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_RFIB252",
+    "coordinatesId": 20,
+    "chapterId": 18,
+    "health": 44,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_YZBV253",
+    "coordinatesId": 12,
+    "chapterId": 74,
+    "health": 53,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_QQXN254",
+    "coordinatesId": 3,
+    "chapterId": 87,
+    "health": 134,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_IMEW255",
+    "coordinatesId": 6,
+    "chapterId": 33,
+    "health": 44,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_FHXW256",
+    "coordinatesId": 93,
+    "chapterId": 83,
+    "health": 108,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ENUR257",
+    "coordinatesId": 25,
+    "chapterId": 87,
+    "health": 125,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_KAUE258",
+    "coordinatesId": 21,
+    "chapterId": 44,
+    "health": 156,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ZTJC259",
+    "coordinatesId": 63,
+    "chapterId": 84,
+    "health": 167,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TIFR260",
+    "coordinatesId": 34,
+    "chapterId": 44,
+    "health": 16,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RMAC261",
+    "coordinatesId": 4,
+    "chapterId": 77,
+    "health": 50,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_TFIC262",
+    "coordinatesId": 89,
+    "chapterId": 56,
+    "health": 110,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_UFWT263",
+    "coordinatesId": 4,
+    "chapterId": 26,
+    "health": 94,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_XZPC264",
+    "coordinatesId": 58,
+    "chapterId": 7,
+    "health": 84,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RLVN265",
+    "coordinatesId": 26,
+    "chapterId": 27,
+    "health": 190,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RQJG266",
+    "coordinatesId": 82,
+    "chapterId": 98,
+    "health": 129,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_OARK267",
+    "coordinatesId": 74,
+    "chapterId": 41,
+    "health": 36,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_CMQY268",
+    "coordinatesId": 1,
+    "chapterId": 71,
+    "health": 93,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_PJNP269",
+    "coordinatesId": 82,
+    "chapterId": 50,
+    "health": 152,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_UZKZ270",
+    "coordinatesId": 19,
+    "chapterId": 91,
+    "health": 131,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_WANM271",
+    "coordinatesId": 50,
+    "chapterId": 96,
+    "health": 118,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_EPWH272",
+    "coordinatesId": 22,
+    "chapterId": 39,
+    "health": 102,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_MBXX273",
+    "coordinatesId": 8,
+    "chapterId": 67,
+    "health": 59,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_IPEF274",
+    "coordinatesId": 68,
+    "chapterId": 53,
+    "health": 162,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_XDON275",
+    "coordinatesId": 14,
+    "chapterId": 18,
+    "health": 10,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_XSDJ276",
+    "coordinatesId": 38,
+    "chapterId": 76,
+    "health": 34,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KOOU277",
+    "coordinatesId": 47,
+    "chapterId": 9,
+    "health": 18,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_WPKQ278",
+    "coordinatesId": 22,
+    "chapterId": 49,
+    "health": 82,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_RPEP279",
+    "coordinatesId": 84,
+    "chapterId": 52,
+    "health": 36,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ONBJ280",
+    "coordinatesId": 38,
+    "chapterId": 1,
+    "health": 113,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_NJZI281",
+    "coordinatesId": 42,
+    "chapterId": 78,
+    "health": 59,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_MUWM282",
+    "coordinatesId": 2,
+    "chapterId": 26,
+    "health": 177,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_UNRJ283",
+    "coordinatesId": 19,
+    "chapterId": 68,
+    "health": 175,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_KGLW284",
+    "coordinatesId": 10,
+    "chapterId": 44,
+    "health": 179,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_YQUJ285",
+    "coordinatesId": 23,
+    "chapterId": 70,
+    "health": 115,
+    "loyal": true,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_EEDZ286",
+    "coordinatesId": 93,
+    "chapterId": 54,
+    "health": 72,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_OUCG287",
+    "coordinatesId": 76,
+    "chapterId": 47,
+    "health": 68,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KVWC288",
+    "coordinatesId": 92,
+    "chapterId": 21,
+    "health": 182,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_RGLR289",
+    "coordinatesId": 72,
+    "chapterId": 49,
+    "health": 166,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_VJZH290",
+    "coordinatesId": 100,
+    "chapterId": 46,
+    "health": 30,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ASEC291",
+    "coordinatesId": 37,
+    "chapterId": 35,
+    "health": 66,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_UBXJ292",
+    "coordinatesId": 87,
+    "chapterId": 73,
+    "health": 6,
+    "loyal": false,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_EFRM293",
+    "coordinatesId": 26,
+    "chapterId": 10,
+    "health": 143,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_GJRD294",
+    "coordinatesId": 22,
+    "chapterId": 90,
+    "health": 169,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_BEMZ295",
+    "coordinatesId": 4,
+    "chapterId": 6,
+    "health": 163,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_DLJE296",
+    "coordinatesId": 26,
+    "chapterId": 15,
+    "health": 140,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_EXYE297",
+    "coordinatesId": 41,
+    "chapterId": 45,
+    "health": 142,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TRDX298",
+    "coordinatesId": 6,
+    "chapterId": 54,
+    "health": 106,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_XOOL299",
+    "coordinatesId": 70,
+    "chapterId": 93,
+    "health": 153,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_KSMT300",
+    "coordinatesId": 5,
+    "chapterId": 88,
+    "health": 7,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_LQEP301",
+    "coordinatesId": 70,
+    "chapterId": 27,
+    "health": 68,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_XYFY302",
+    "coordinatesId": 98,
+    "chapterId": 89,
+    "health": 108,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RLAD303",
+    "coordinatesId": 71,
+    "chapterId": 24,
+    "health": 55,
+    "loyal": false,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_BEBU304",
+    "coordinatesId": 34,
+    "chapterId": 51,
+    "health": 136,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_GNGN305",
+    "coordinatesId": 50,
+    "chapterId": 19,
+    "health": 52,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ECMO306",
+    "coordinatesId": 24,
+    "chapterId": 66,
+    "health": 3,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VEJQ307",
+    "coordinatesId": 98,
+    "chapterId": 23,
+    "health": 154,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BHVJ308",
+    "coordinatesId": 42,
+    "chapterId": 57,
+    "health": 64,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ORXH309",
+    "coordinatesId": 47,
+    "chapterId": 5,
+    "health": 197,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_HYTN310",
+    "coordinatesId": 69,
+    "chapterId": 6,
+    "health": 65,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_NFNJ311",
+    "coordinatesId": 3,
+    "chapterId": 41,
+    "health": 89,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_EUMC312",
+    "coordinatesId": 58,
+    "chapterId": 33,
+    "health": 157,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BMQT313",
+    "coordinatesId": 60,
+    "chapterId": 1,
+    "health": 158,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_CUUS314",
+    "coordinatesId": 3,
+    "chapterId": 79,
+    "health": 158,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_JXUH315",
+    "coordinatesId": 3,
+    "chapterId": 60,
+    "health": 110,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_LTIT316",
+    "coordinatesId": 82,
+    "chapterId": 3,
+    "health": 75,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_WNCJ317",
+    "coordinatesId": 48,
+    "chapterId": 78,
+    "health": 190,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_UVGF318",
+    "coordinatesId": 75,
+    "chapterId": 24,
+    "health": 129,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_TNZB319",
+    "coordinatesId": 58,
+    "chapterId": 3,
+    "health": 89,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_BMUQ320",
+    "coordinatesId": 95,
+    "chapterId": 84,
+    "health": 156,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_QFIC321",
+    "coordinatesId": 43,
+    "chapterId": 62,
+    "health": 188,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_LSNH322",
+    "coordinatesId": 29,
+    "chapterId": 55,
+    "health": 130,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_RGYA323",
+    "coordinatesId": 10,
+    "chapterId": 23,
+    "health": 171,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_UDJU324",
+    "coordinatesId": 37,
+    "chapterId": 14,
+    "health": 129,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_XTKO325",
+    "coordinatesId": 30,
+    "chapterId": 77,
+    "health": 87,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_JMDY326",
+    "coordinatesId": 73,
+    "chapterId": 3,
+    "health": 32,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_JUVZ327",
+    "coordinatesId": 33,
+    "chapterId": 93,
+    "health": 102,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_RBUZ328",
+    "coordinatesId": 99,
+    "chapterId": 30,
+    "health": 60,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_LTTK329",
+    "coordinatesId": 52,
+    "chapterId": 85,
+    "health": 21,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ITNJ330",
+    "coordinatesId": 31,
+    "chapterId": 86,
+    "health": 23,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ADBN331",
+    "coordinatesId": 21,
+    "chapterId": 32,
+    "health": 148,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_KPMM332",
+    "coordinatesId": 79,
+    "chapterId": 91,
+    "health": 11,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_IIIZ333",
+    "coordinatesId": 82,
+    "chapterId": 82,
+    "health": 196,
+    "loyal": false,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_SHVI334",
+    "coordinatesId": 92,
+    "chapterId": 66,
+    "health": 57,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_SEOS335",
+    "coordinatesId": 88,
+    "chapterId": 84,
+    "health": 166,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_JDIR336",
+    "coordinatesId": 66,
+    "chapterId": 15,
+    "health": 60,
+    "loyal": false,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_TPZZ337",
+    "coordinatesId": 62,
+    "chapterId": 72,
+    "health": 153,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_UJZJ338",
+    "coordinatesId": 57,
+    "chapterId": 4,
+    "health": 62,
+    "loyal": false,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_MWWE339",
+    "coordinatesId": 15,
+    "chapterId": 91,
+    "health": 114,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_SPXG340",
+    "coordinatesId": 61,
+    "chapterId": 1,
+    "health": 82,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_KMXW341",
+    "coordinatesId": 34,
+    "chapterId": 34,
+    "health": 25,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_MKTO342",
+    "coordinatesId": 18,
+    "chapterId": 17,
+    "health": 178,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_FZBB343",
+    "coordinatesId": 72,
+    "chapterId": 67,
+    "health": 84,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_QOJC344",
+    "coordinatesId": 67,
+    "chapterId": 61,
+    "health": 63,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_NZMS345",
+    "coordinatesId": 83,
+    "chapterId": 11,
+    "health": 146,
+    "loyal": true,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ANHK346",
+    "coordinatesId": 27,
+    "chapterId": 15,
+    "health": 114,
+    "loyal": false,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_EEEW347",
+    "coordinatesId": 3,
+    "chapterId": 91,
+    "health": 188,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ZRBC348",
+    "coordinatesId": 47,
+    "chapterId": 80,
+    "health": 143,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_TXMP349",
+    "coordinatesId": 11,
+    "chapterId": 97,
+    "health": 168,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_BLUY350",
+    "coordinatesId": 28,
+    "chapterId": 18,
+    "health": 99,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_WYSI351",
+    "coordinatesId": 22,
+    "chapterId": 13,
+    "health": 136,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_DUJB352",
+    "coordinatesId": 95,
+    "chapterId": 59,
+    "health": 140,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_YPPG353",
+    "coordinatesId": 93,
+    "chapterId": 75,
+    "health": 114,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BUXB354",
+    "coordinatesId": 85,
+    "chapterId": 59,
+    "health": 16,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_LLBE355",
+    "coordinatesId": 84,
+    "chapterId": 22,
+    "health": 97,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_PLZJ356",
+    "coordinatesId": 60,
+    "chapterId": 35,
+    "health": 135,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_UPQT357",
+    "coordinatesId": 61,
+    "chapterId": 10,
+    "health": 77,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_XGVT358",
+    "coordinatesId": 80,
+    "chapterId": 34,
+    "health": 86,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VQTQ359",
+    "coordinatesId": 65,
+    "chapterId": 3,
+    "health": 76,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_LQGH360",
+    "coordinatesId": 61,
+    "chapterId": 15,
+    "health": 171,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RPYJ361",
+    "coordinatesId": 13,
+    "chapterId": 38,
+    "health": 157,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_HLPR362",
+    "coordinatesId": 33,
+    "chapterId": 70,
+    "health": 111,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ZTOJ363",
+    "coordinatesId": 49,
+    "chapterId": 61,
+    "health": 45,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_EHKK364",
+    "coordinatesId": 91,
+    "chapterId": 63,
+    "health": 122,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_EDJM365",
+    "coordinatesId": 22,
+    "chapterId": 91,
+    "health": 40,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PSBY366",
+    "coordinatesId": 44,
+    "chapterId": 72,
+    "health": 130,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_XNMA367",
+    "coordinatesId": 23,
+    "chapterId": 28,
+    "health": 2,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_XHJG368",
+    "coordinatesId": 94,
+    "chapterId": 21,
+    "health": 189,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_DDMX369",
+    "coordinatesId": 25,
+    "chapterId": 37,
+    "health": 3,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_GOQA370",
+    "coordinatesId": 20,
+    "chapterId": 59,
+    "health": 55,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_JESD371",
+    "coordinatesId": 40,
+    "chapterId": 51,
+    "health": 59,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_LBRY372",
+    "coordinatesId": 18,
+    "chapterId": 60,
+    "health": 106,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_MQTZ373",
+    "coordinatesId": 11,
+    "chapterId": 43,
+    "health": 159,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_XLCL374",
+    "coordinatesId": 65,
+    "chapterId": 2,
+    "health": 183,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_UFTR375",
+    "coordinatesId": 65,
+    "chapterId": 70,
+    "health": 76,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VBUH376",
+    "coordinatesId": 76,
+    "chapterId": 56,
+    "health": 104,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_HTUB377",
+    "coordinatesId": 81,
+    "chapterId": 5,
+    "health": 101,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ARJU378",
+    "coordinatesId": 40,
+    "chapterId": 14,
+    "health": 56,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_JQVW379",
+    "coordinatesId": 4,
+    "chapterId": 25,
+    "health": 28,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_AEWI380",
+    "coordinatesId": 15,
+    "chapterId": 64,
+    "health": 142,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ZNLN381",
+    "coordinatesId": 59,
+    "chapterId": 1,
+    "health": 37,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_YKLP382",
+    "coordinatesId": 51,
+    "chapterId": 80,
+    "health": 60,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_JRLE383",
+    "coordinatesId": 67,
+    "chapterId": 80,
+    "health": 180,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_RNZS384",
+    "coordinatesId": 79,
+    "chapterId": 26,
+    "health": 124,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_CYQR385",
+    "coordinatesId": 77,
+    "chapterId": 24,
+    "health": 86,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_HZFZ386",
+    "coordinatesId": 7,
+    "chapterId": 39,
+    "health": 26,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_LTFC387",
+    "coordinatesId": 55,
+    "chapterId": 6,
+    "health": 133,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_NMDQ388",
+    "coordinatesId": 29,
+    "chapterId": 73,
+    "health": 99,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_IHVU389",
+    "coordinatesId": 68,
+    "chapterId": 98,
+    "health": 158,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_JXMN390",
+    "coordinatesId": 82,
+    "chapterId": 60,
+    "health": 134,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_UOPR391",
+    "coordinatesId": 68,
+    "chapterId": 69,
+    "health": 37,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_VEUG392",
+    "coordinatesId": 76,
+    "chapterId": 40,
+    "health": 122,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_IBEQ393",
+    "coordinatesId": 83,
+    "chapterId": 97,
+    "health": 121,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_OZBF394",
+    "coordinatesId": 41,
+    "chapterId": 95,
+    "health": 189,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_SBOC395",
+    "coordinatesId": 3,
+    "chapterId": 94,
+    "health": 122,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_IQKB396",
+    "coordinatesId": 32,
+    "chapterId": 93,
+    "health": 99,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_UJOL397",
+    "coordinatesId": 96,
+    "chapterId": 25,
+    "health": 102,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_GEUP398",
+    "coordinatesId": 11,
+    "chapterId": 79,
+    "health": 150,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_VLMB399",
+    "coordinatesId": 25,
+    "chapterId": 95,
+    "health": 196,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ZBNQ400",
+    "coordinatesId": 45,
+    "chapterId": 35,
+    "health": 118,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_WBKN401",
+    "coordinatesId": 38,
+    "chapterId": 12,
+    "health": 181,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_OPJR402",
+    "coordinatesId": 68,
+    "chapterId": 43,
+    "health": 91,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_QKLN403",
+    "coordinatesId": 61,
+    "chapterId": 59,
+    "health": 171,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_XFYH404",
+    "coordinatesId": 82,
+    "chapterId": 53,
+    "health": 8,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_KKSB405",
+    "coordinatesId": 68,
+    "chapterId": 55,
+    "health": 154,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_HWXA406",
+    "coordinatesId": 11,
+    "chapterId": 97,
+    "health": 120,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_KANT407",
+    "coordinatesId": 56,
+    "chapterId": 100,
+    "health": 28,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_JWIU408",
+    "coordinatesId": 76,
+    "chapterId": 67,
+    "health": 90,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_OROK409",
+    "coordinatesId": 53,
+    "chapterId": 16,
+    "health": 10,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_QPTV410",
+    "coordinatesId": 30,
+    "chapterId": 55,
+    "health": 51,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_SMON411",
+    "coordinatesId": 24,
+    "chapterId": 17,
+    "health": 63,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_FSXD412",
+    "coordinatesId": 31,
+    "chapterId": 57,
+    "health": 118,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_RPUM413",
+    "coordinatesId": 10,
+    "chapterId": 18,
+    "health": 56,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_AXJS414",
+    "coordinatesId": 22,
+    "chapterId": 36,
+    "health": 11,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_CQSL415",
+    "coordinatesId": 23,
+    "chapterId": 74,
+    "health": 196,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KIRV416",
+    "coordinatesId": 49,
+    "chapterId": 23,
+    "health": 4,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ITSC417",
+    "coordinatesId": 59,
+    "chapterId": 4,
+    "health": 36,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_KBSJ418",
+    "coordinatesId": 77,
+    "chapterId": 40,
+    "health": 160,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_FPBY419",
+    "coordinatesId": 39,
+    "chapterId": 87,
+    "health": 13,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PCZO420",
+    "coordinatesId": 7,
+    "chapterId": 28,
+    "health": 65,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_UWZS421",
+    "coordinatesId": 25,
+    "chapterId": 21,
+    "health": 188,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TYNT422",
+    "coordinatesId": 23,
+    "chapterId": 43,
+    "health": 76,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_EBLK423",
+    "coordinatesId": 57,
+    "chapterId": 17,
+    "health": 1,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BBLN424",
+    "coordinatesId": 75,
+    "chapterId": 55,
+    "health": 146,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_OTNR425",
+    "coordinatesId": 74,
+    "chapterId": 21,
+    "health": 150,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_EPHY426",
+    "coordinatesId": 46,
+    "chapterId": 91,
+    "health": 189,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_VGYD427",
+    "coordinatesId": 71,
+    "chapterId": 47,
+    "health": 112,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_EQEJ428",
+    "coordinatesId": 65,
+    "chapterId": 74,
+    "health": 51,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_CJHD429",
+    "coordinatesId": 83,
+    "chapterId": 86,
+    "health": 33,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KERH430",
+    "coordinatesId": 9,
+    "chapterId": 89,
+    "health": 194,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_HADD431",
+    "coordinatesId": 5,
+    "chapterId": 60,
+    "health": 28,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PGXK432",
+    "coordinatesId": 37,
+    "chapterId": 47,
+    "health": 43,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YVVX433",
+    "coordinatesId": 95,
+    "chapterId": 98,
+    "health": 8,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_RDGV434",
+    "coordinatesId": 17,
+    "chapterId": 61,
+    "health": 149,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_KHWE435",
+    "coordinatesId": 67,
+    "chapterId": 32,
+    "health": 109,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_UVOO436",
+    "coordinatesId": 46,
+    "chapterId": 92,
+    "health": 186,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_NRGI437",
+    "coordinatesId": 8,
+    "chapterId": 26,
+    "health": 53,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_XFEK438",
+    "coordinatesId": 54,
+    "chapterId": 42,
+    "health": 184,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_CHEQ439",
+    "coordinatesId": 44,
+    "chapterId": 72,
+    "health": 4,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_JKXZ440",
+    "coordinatesId": 64,
+    "chapterId": 7,
+    "health": 76,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_AMYC441",
+    "coordinatesId": 47,
+    "chapterId": 100,
+    "health": 2,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_FTAC442",
+    "coordinatesId": 67,
+    "chapterId": 9,
+    "health": 117,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_XSFM443",
+    "coordinatesId": 69,
+    "chapterId": 93,
+    "health": 10,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_IEQT444",
+    "coordinatesId": 34,
+    "chapterId": 23,
+    "health": 48,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_IYSU445",
+    "coordinatesId": 88,
+    "chapterId": 79,
+    "health": 80,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_EQUB446",
+    "coordinatesId": 85,
+    "chapterId": 82,
+    "health": 192,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ZMVY447",
+    "coordinatesId": 31,
+    "chapterId": 31,
+    "health": 102,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_CGRX448",
+    "coordinatesId": 24,
+    "chapterId": 13,
+    "health": 79,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_THGP449",
+    "coordinatesId": 70,
+    "chapterId": 90,
+    "health": 8,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_PMLD450",
+    "coordinatesId": 87,
+    "chapterId": 3,
+    "health": 38,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_EACB451",
+    "coordinatesId": 2,
+    "chapterId": 43,
+    "health": 86,
+    "loyal": null,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_CVTT452",
+    "coordinatesId": 98,
+    "chapterId": 99,
+    "health": 56,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_DDYB453",
+    "coordinatesId": 31,
+    "chapterId": 54,
+    "health": 82,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_AGRP454",
+    "coordinatesId": 32,
+    "chapterId": 75,
+    "health": 17,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_RCAF455",
+    "coordinatesId": 42,
+    "chapterId": 92,
+    "health": 132,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_HPVH456",
+    "coordinatesId": 35,
+    "chapterId": 63,
+    "health": 47,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_LEXZ457",
+    "coordinatesId": 60,
+    "chapterId": 1,
+    "health": 178,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_MLKA458",
+    "coordinatesId": 46,
+    "chapterId": 14,
+    "health": 76,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_WCKW459",
+    "coordinatesId": 48,
+    "chapterId": 80,
+    "health": 81,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_EDQD460",
+    "coordinatesId": 1,
+    "chapterId": 97,
+    "health": 191,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_QFFV461",
+    "coordinatesId": 12,
+    "chapterId": 1,
+    "health": 58,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_BRAV462",
+    "coordinatesId": 43,
+    "chapterId": 44,
+    "health": 152,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_CIZM463",
+    "coordinatesId": 44,
+    "chapterId": 31,
+    "health": 45,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_OENR464",
+    "coordinatesId": 85,
+    "chapterId": 12,
+    "health": 85,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_KRGO465",
+    "coordinatesId": 46,
+    "chapterId": 70,
+    "health": 43,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_FHLS466",
+    "coordinatesId": 72,
+    "chapterId": 48,
+    "health": 137,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_TUUO467",
+    "coordinatesId": 81,
+    "chapterId": 47,
+    "health": 104,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_EROU468",
+    "coordinatesId": 53,
+    "chapterId": 69,
+    "health": 28,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_LSKO469",
+    "coordinatesId": 37,
+    "chapterId": 16,
+    "health": 40,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_OQWI470",
+    "coordinatesId": 41,
+    "chapterId": 44,
+    "health": 193,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_QLCZ471",
+    "coordinatesId": 54,
+    "chapterId": 93,
+    "health": 155,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_XDTK472",
+    "coordinatesId": 48,
+    "chapterId": 52,
+    "health": 73,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_LIMV473",
+    "coordinatesId": 62,
+    "chapterId": 36,
+    "health": 183,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YYXY474",
+    "coordinatesId": 65,
+    "chapterId": 28,
+    "health": 73,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_MDNN475",
+    "coordinatesId": 36,
+    "chapterId": 25,
+    "health": 13,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BTOF476",
+    "coordinatesId": 5,
+    "chapterId": 18,
+    "health": 72,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_AQAM477",
+    "coordinatesId": 20,
+    "chapterId": 60,
+    "health": 156,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_NYZU478",
+    "coordinatesId": 31,
+    "chapterId": 74,
+    "health": 131,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ESVI479",
+    "coordinatesId": 66,
+    "chapterId": 41,
+    "health": 37,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ZMEJ480",
+    "coordinatesId": 82,
+    "chapterId": 37,
+    "health": 85,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_KZHZ481",
+    "coordinatesId": 56,
+    "chapterId": 13,
+    "health": 129,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_MSRJ482",
+    "coordinatesId": 20,
+    "chapterId": 50,
+    "health": 129,
+    "loyal": null,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ZCHM483",
+    "coordinatesId": 76,
+    "chapterId": 16,
+    "health": 65,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YSDO484",
+    "coordinatesId": 61,
+    "chapterId": 14,
+    "health": 96,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_VSHI485",
+    "coordinatesId": 83,
+    "chapterId": 32,
+    "health": 62,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KBCB486",
+    "coordinatesId": 9,
+    "chapterId": 100,
+    "health": 79,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_WEHO487",
+    "coordinatesId": 23,
+    "chapterId": 84,
+    "health": 147,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_SLBZ488",
+    "coordinatesId": 70,
+    "chapterId": 77,
+    "health": 32,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_AOGT489",
+    "coordinatesId": 38,
+    "chapterId": 28,
+    "health": 43,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_GODY490",
+    "coordinatesId": 72,
+    "chapterId": 28,
+    "health": 199,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_FAOM491",
+    "coordinatesId": 57,
+    "chapterId": 96,
+    "health": 34,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_FDGJ492",
+    "coordinatesId": 38,
+    "chapterId": 35,
+    "health": 65,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_TBBV493",
+    "coordinatesId": 98,
+    "chapterId": 74,
+    "health": 55,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_XNOV494",
+    "coordinatesId": 8,
+    "chapterId": 89,
+    "health": 33,
+    "loyal": true,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_QFZD495",
+    "coordinatesId": 4,
+    "chapterId": 22,
+    "health": 100,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_DTYE496",
+    "coordinatesId": 93,
+    "chapterId": 16,
+    "health": 72,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_YIHR497",
+    "coordinatesId": 74,
+    "chapterId": 100,
+    "health": 186,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PUYF498",
+    "coordinatesId": 65,
+    "chapterId": 5,
+    "health": 14,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_CUYT499",
+    "coordinatesId": 17,
+    "chapterId": 10,
+    "health": 71,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ZNMD500",
+    "coordinatesId": 41,
+    "chapterId": 86,
+    "health": 172,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_RUUQ501",
+    "coordinatesId": 72,
+    "chapterId": 7,
+    "health": 109,
+    "loyal": false,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_GWRI502",
+    "coordinatesId": 26,
+    "chapterId": 22,
+    "health": 22,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_DETR503",
+    "coordinatesId": 8,
+    "chapterId": 28,
+    "health": 119,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_IPZC504",
+    "coordinatesId": 44,
+    "chapterId": 42,
+    "health": 36,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_MQLQ505",
+    "coordinatesId": 48,
+    "chapterId": 26,
+    "health": 122,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_TYUM506",
+    "coordinatesId": 5,
+    "chapterId": 13,
+    "health": 99,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_JJWN507",
+    "coordinatesId": 63,
+    "chapterId": 8,
+    "health": 181,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_TGGU508",
+    "coordinatesId": 77,
+    "chapterId": 97,
+    "health": 162,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_QAVH509",
+    "coordinatesId": 65,
+    "chapterId": 29,
+    "health": 13,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_YUQJ510",
+    "coordinatesId": 63,
+    "chapterId": 2,
+    "health": 58,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_EMMK511",
+    "coordinatesId": 84,
+    "chapterId": 86,
+    "health": 115,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_AVAI512",
+    "coordinatesId": 9,
+    "chapterId": 13,
+    "health": 3,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_FZFH513",
+    "coordinatesId": 17,
+    "chapterId": 80,
+    "health": 32,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_QHWZ514",
+    "coordinatesId": 3,
+    "chapterId": 99,
+    "health": 86,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_YTOE515",
+    "coordinatesId": 33,
+    "chapterId": 12,
+    "health": 53,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_NBJF516",
+    "coordinatesId": 47,
+    "chapterId": 13,
+    "health": 182,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_QWMY517",
+    "coordinatesId": 66,
+    "chapterId": 58,
+    "health": 94,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_SLLC518",
+    "coordinatesId": 37,
+    "chapterId": 35,
+    "health": 37,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_YQRX519",
+    "coordinatesId": 8,
+    "chapterId": 30,
+    "health": 127,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_TYXO520",
+    "coordinatesId": 63,
+    "chapterId": 19,
+    "health": 168,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_MRPE521",
+    "coordinatesId": 19,
+    "chapterId": 99,
+    "health": 24,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_EZSL522",
+    "coordinatesId": 100,
+    "chapterId": 16,
+    "health": 117,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ODSA523",
+    "coordinatesId": 35,
+    "chapterId": 2,
+    "health": 79,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_QGAG524",
+    "coordinatesId": 90,
+    "chapterId": 45,
+    "health": 59,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_LSFI525",
+    "coordinatesId": 19,
+    "chapterId": 69,
+    "health": 153,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_MNKA526",
+    "coordinatesId": 87,
+    "chapterId": 11,
+    "health": 6,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_GSRK527",
+    "coordinatesId": 78,
+    "chapterId": 46,
+    "health": 150,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KCPG528",
+    "coordinatesId": 99,
+    "chapterId": 83,
+    "health": 80,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_NOJZ529",
+    "coordinatesId": 83,
+    "chapterId": 24,
+    "health": 176,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ALMB530",
+    "coordinatesId": 21,
+    "chapterId": 37,
+    "health": 176,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_BBYG531",
+    "coordinatesId": 68,
+    "chapterId": 71,
+    "health": 118,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ITWG532",
+    "coordinatesId": 21,
+    "chapterId": 43,
+    "health": 188,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_YTBO533",
+    "coordinatesId": 83,
+    "chapterId": 8,
+    "health": 122,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_VOMY534",
+    "coordinatesId": 22,
+    "chapterId": 36,
+    "health": 127,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_KQBS535",
+    "coordinatesId": 89,
+    "chapterId": 18,
+    "health": 195,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_CLEJ536",
+    "coordinatesId": 77,
+    "chapterId": 84,
+    "health": 196,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_BXLI537",
+    "coordinatesId": 69,
+    "chapterId": 89,
+    "health": 104,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_DOVQ538",
+    "coordinatesId": 38,
+    "chapterId": 11,
+    "health": 22,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_MQZV539",
+    "coordinatesId": 66,
+    "chapterId": 4,
+    "health": 26,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_XDBX540",
+    "coordinatesId": 25,
+    "chapterId": 33,
+    "health": 33,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_IXSL541",
+    "coordinatesId": 84,
+    "chapterId": 13,
+    "health": 191,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_JGVQ542",
+    "coordinatesId": 40,
+    "chapterId": 36,
+    "health": 197,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_NMIF543",
+    "coordinatesId": 59,
+    "chapterId": 63,
+    "health": 60,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_FMJI544",
+    "coordinatesId": 84,
+    "chapterId": 64,
+    "health": 95,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TLAZ545",
+    "coordinatesId": 23,
+    "chapterId": 36,
+    "health": 24,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_QTJT546",
+    "coordinatesId": 68,
+    "chapterId": 25,
+    "health": 68,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_SQYK547",
+    "coordinatesId": 31,
+    "chapterId": 32,
+    "health": 128,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_VCZO548",
+    "coordinatesId": 50,
+    "chapterId": 97,
+    "health": 123,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_TBFB549",
+    "coordinatesId": 69,
+    "chapterId": 1,
+    "health": 91,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RVFS550",
+    "coordinatesId": 38,
+    "chapterId": 83,
+    "health": 170,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_FRUI551",
+    "coordinatesId": 66,
+    "chapterId": 65,
+    "health": 147,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_WPSX552",
+    "coordinatesId": 1,
+    "chapterId": 62,
+    "health": 120,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_KJDD553",
+    "coordinatesId": 67,
+    "chapterId": 91,
+    "health": 73,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_NQCU554",
+    "coordinatesId": 27,
+    "chapterId": 93,
+    "health": 188,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_GXBU555",
+    "coordinatesId": 19,
+    "chapterId": 39,
+    "health": 149,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_OWFF556",
+    "coordinatesId": 36,
+    "chapterId": 47,
+    "health": 127,
+    "loyal": true,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PCYA557",
+    "coordinatesId": 23,
+    "chapterId": 26,
+    "health": 155,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YJPO558",
+    "coordinatesId": 90,
+    "chapterId": 28,
+    "health": 92,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_JDFX559",
+    "coordinatesId": 26,
+    "chapterId": 10,
+    "health": 20,
+    "loyal": true,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_NEAI560",
+    "coordinatesId": 60,
+    "chapterId": 12,
+    "health": 164,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_MVXP561",
+    "coordinatesId": 78,
+    "chapterId": 26,
+    "health": 80,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_MUQD562",
+    "coordinatesId": 56,
+    "chapterId": 55,
+    "health": 58,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_NSHQ563",
+    "coordinatesId": 12,
+    "chapterId": 2,
+    "health": 9,
+    "loyal": false,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ORQH564",
+    "coordinatesId": 74,
+    "chapterId": 71,
+    "health": 122,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_QRLR565",
+    "coordinatesId": 96,
+    "chapterId": 68,
+    "health": 46,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_RSDK566",
+    "coordinatesId": 6,
+    "chapterId": 67,
+    "health": 88,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ADGC567",
+    "coordinatesId": 49,
+    "chapterId": 45,
+    "health": 54,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_PMKO568",
+    "coordinatesId": 7,
+    "chapterId": 65,
+    "health": 69,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ZGRC569",
+    "coordinatesId": 67,
+    "chapterId": 32,
+    "health": 151,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_YTCU570",
+    "coordinatesId": 81,
+    "chapterId": 66,
+    "health": 64,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_UOZR571",
+    "coordinatesId": 77,
+    "chapterId": 86,
+    "health": 78,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_SVKI572",
+    "coordinatesId": 71,
+    "chapterId": 84,
+    "health": 47,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_SOHK573",
+    "coordinatesId": 45,
+    "chapterId": 63,
+    "health": 52,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_SUSX574",
+    "coordinatesId": 79,
+    "chapterId": 29,
+    "health": 74,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_BBOQ575",
+    "coordinatesId": 10,
+    "chapterId": 90,
+    "health": 92,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ZWKF576",
+    "coordinatesId": 31,
+    "chapterId": 18,
+    "health": 125,
+    "loyal": true,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_BELJ577",
+    "coordinatesId": 4,
+    "chapterId": 62,
+    "health": 128,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ILYI578",
+    "coordinatesId": 60,
+    "chapterId": 97,
+    "health": 36,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_PAMX579",
+    "coordinatesId": 23,
+    "chapterId": 3,
+    "health": 169,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_MXBJ580",
+    "coordinatesId": 40,
+    "chapterId": 97,
+    "health": 79,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_SVDP581",
+    "coordinatesId": 34,
+    "chapterId": 8,
+    "health": 44,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_NXSJ582",
+    "coordinatesId": 69,
+    "chapterId": 53,
+    "health": 103,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ICKS583",
+    "coordinatesId": 30,
+    "chapterId": 37,
+    "health": 25,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_WVWX584",
+    "coordinatesId": 26,
+    "chapterId": 81,
+    "health": 23,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_PEEE585",
+    "coordinatesId": 72,
+    "chapterId": 32,
+    "health": 120,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_QADQ586",
+    "coordinatesId": 4,
+    "chapterId": 71,
+    "health": 25,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_XVUF587",
+    "coordinatesId": 64,
+    "chapterId": 43,
+    "health": 5,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_MSZS588",
+    "coordinatesId": 41,
+    "chapterId": 92,
+    "health": 40,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_VICY589",
+    "coordinatesId": 61,
+    "chapterId": 95,
+    "health": 193,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_WTMA590",
+    "coordinatesId": 51,
+    "chapterId": 45,
+    "health": 150,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_SWKV591",
+    "coordinatesId": 22,
+    "chapterId": 86,
+    "health": 120,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_EKIG592",
+    "coordinatesId": 16,
+    "chapterId": 96,
+    "health": 63,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_BVIH593",
+    "coordinatesId": 21,
+    "chapterId": 80,
+    "health": 140,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_CVOG594",
+    "coordinatesId": 13,
+    "chapterId": 72,
+    "health": 137,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_VSMV595",
+    "coordinatesId": 66,
+    "chapterId": 42,
+    "health": 172,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_BLSO596",
+    "coordinatesId": 72,
+    "chapterId": 91,
+    "health": 77,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_AFUU597",
+    "coordinatesId": 62,
+    "chapterId": 18,
+    "health": 200,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_QMMT598",
+    "coordinatesId": 90,
+    "chapterId": 39,
+    "health": 44,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ZPMP599",
+    "coordinatesId": 72,
+    "chapterId": 4,
+    "health": 143,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KMFL600",
+    "coordinatesId": 83,
+    "chapterId": 16,
+    "health": 56,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_MCLT601",
+    "coordinatesId": 43,
+    "chapterId": 6,
+    "health": 186,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_AZFR602",
+    "coordinatesId": 18,
+    "chapterId": 24,
+    "health": 1,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_OJVA603",
+    "coordinatesId": 55,
+    "chapterId": 1,
+    "health": 34,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ARTA604",
+    "coordinatesId": 64,
+    "chapterId": 30,
+    "health": 180,
+    "loyal": null,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_XATK605",
+    "coordinatesId": 73,
+    "chapterId": 10,
+    "health": 134,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_SMSK606",
+    "coordinatesId": 74,
+    "chapterId": 76,
+    "health": 135,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_QMEN607",
+    "coordinatesId": 88,
+    "chapterId": 76,
+    "health": 44,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_TWKX608",
+    "coordinatesId": 63,
+    "chapterId": 86,
+    "health": 50,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_CFNR609",
+    "coordinatesId": 8,
+    "chapterId": 3,
+    "health": 196,
+    "loyal": false,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_NJSZ610",
+    "coordinatesId": 87,
+    "chapterId": 93,
+    "health": 52,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_LJLM611",
+    "coordinatesId": 58,
+    "chapterId": 30,
+    "health": 78,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_RNLF612",
+    "coordinatesId": 59,
+    "chapterId": 23,
+    "health": 90,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_IKLA613",
+    "coordinatesId": 23,
+    "chapterId": 62,
+    "health": 123,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_EIYV614",
+    "coordinatesId": 61,
+    "chapterId": 44,
+    "health": 3,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_WZGS615",
+    "coordinatesId": 22,
+    "chapterId": 89,
+    "health": 132,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_JMGF616",
+    "coordinatesId": 39,
+    "chapterId": 18,
+    "health": 29,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_GMIE617",
+    "coordinatesId": 12,
+    "chapterId": 21,
+    "health": 109,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_AFOM618",
+    "coordinatesId": 46,
+    "chapterId": 64,
+    "health": 72,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_RKEH619",
+    "coordinatesId": 99,
+    "chapterId": 99,
+    "health": 116,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_EQPT620",
+    "coordinatesId": 2,
+    "chapterId": 70,
+    "health": 77,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_VMGY621",
+    "coordinatesId": 55,
+    "chapterId": 83,
+    "health": 27,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PDCH622",
+    "coordinatesId": 16,
+    "chapterId": 21,
+    "health": 6,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_UZHC623",
+    "coordinatesId": 66,
+    "chapterId": 24,
+    "health": 28,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_YHYZ624",
+    "coordinatesId": 33,
+    "chapterId": 14,
+    "health": 176,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_WEPJ625",
+    "coordinatesId": 33,
+    "chapterId": 14,
+    "health": 58,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ZYNL626",
+    "coordinatesId": 3,
+    "chapterId": 47,
+    "health": 164,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_URCX627",
+    "coordinatesId": 32,
+    "chapterId": 4,
+    "health": 181,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_TXGY628",
+    "coordinatesId": 100,
+    "chapterId": 60,
+    "health": 150,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_LCUZ629",
+    "coordinatesId": 87,
+    "chapterId": 79,
+    "health": 40,
+    "loyal": false,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_SEKD630",
+    "coordinatesId": 81,
+    "chapterId": 32,
+    "health": 196,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_EBDM631",
+    "coordinatesId": 83,
+    "chapterId": 10,
+    "health": 82,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_CCEJ632",
+    "coordinatesId": 69,
+    "chapterId": 43,
+    "health": 194,
+    "loyal": false,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_IXVE633",
+    "coordinatesId": 78,
+    "chapterId": 76,
+    "health": 18,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_JZQU634",
+    "coordinatesId": 45,
+    "chapterId": 40,
+    "health": 80,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TJWD635",
+    "coordinatesId": 25,
+    "chapterId": 61,
+    "health": 115,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_YAXN636",
+    "coordinatesId": 19,
+    "chapterId": 27,
+    "health": 75,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TFCD637",
+    "coordinatesId": 3,
+    "chapterId": 65,
+    "health": 133,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_FXHK638",
+    "coordinatesId": 5,
+    "chapterId": 66,
+    "health": 16,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_REDW639",
+    "coordinatesId": 53,
+    "chapterId": 40,
+    "health": 166,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_GVDA640",
+    "coordinatesId": 41,
+    "chapterId": 22,
+    "health": 10,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_TABQ641",
+    "coordinatesId": 91,
+    "chapterId": 72,
+    "health": 54,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ZYJB642",
+    "coordinatesId": 99,
+    "chapterId": 96,
+    "health": 150,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_UZLK643",
+    "coordinatesId": 84,
+    "chapterId": 25,
+    "health": 26,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_NUAS644",
+    "coordinatesId": 8,
+    "chapterId": 29,
+    "health": 173,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_COCE645",
+    "coordinatesId": 44,
+    "chapterId": 84,
+    "health": 68,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_LEEI646",
+    "coordinatesId": 11,
+    "chapterId": 7,
+    "health": 19,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PJPB647",
+    "coordinatesId": 22,
+    "chapterId": 32,
+    "health": 64,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ZHET648",
+    "coordinatesId": 74,
+    "chapterId": 100,
+    "health": 75,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_MIQP649",
+    "coordinatesId": 80,
+    "chapterId": 5,
+    "health": 19,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ZIXJ650",
+    "coordinatesId": 56,
+    "chapterId": 35,
+    "health": 41,
+    "loyal": true,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_FLNK651",
+    "coordinatesId": 12,
+    "chapterId": 41,
+    "health": 167,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_SJQT652",
+    "coordinatesId": 26,
+    "chapterId": 16,
+    "health": 18,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_AHFN653",
+    "coordinatesId": 24,
+    "chapterId": 65,
+    "health": 24,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_NJAJ654",
+    "coordinatesId": 79,
+    "chapterId": 69,
+    "health": 40,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_CYVQ655",
+    "coordinatesId": 24,
+    "chapterId": 48,
+    "health": 100,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_UITQ656",
+    "coordinatesId": 28,
+    "chapterId": 40,
+    "health": 135,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_WSDK657",
+    "coordinatesId": 55,
+    "chapterId": 58,
+    "health": 80,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_PKXO658",
+    "coordinatesId": 14,
+    "chapterId": 51,
+    "health": 152,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_WBTS659",
+    "coordinatesId": 93,
+    "chapterId": 67,
+    "health": 154,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ASVR660",
+    "coordinatesId": 29,
+    "chapterId": 29,
+    "health": 83,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_MQLF661",
+    "coordinatesId": 96,
+    "chapterId": 10,
+    "health": 181,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_FVQC662",
+    "coordinatesId": 48,
+    "chapterId": 97,
+    "health": 172,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ASOW663",
+    "coordinatesId": 60,
+    "chapterId": 56,
+    "health": 76,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_HRUP664",
+    "coordinatesId": 39,
+    "chapterId": 55,
+    "health": 8,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_WNHV665",
+    "coordinatesId": 6,
+    "chapterId": 64,
+    "health": 146,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_KWZQ666",
+    "coordinatesId": 85,
+    "chapterId": 91,
+    "health": 6,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_QEQO667",
+    "coordinatesId": 86,
+    "chapterId": 19,
+    "health": 100,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_OTXH668",
+    "coordinatesId": 100,
+    "chapterId": 49,
+    "health": 7,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_LTXY669",
+    "coordinatesId": 3,
+    "chapterId": 62,
+    "health": 177,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_LFPG670",
+    "coordinatesId": 30,
+    "chapterId": 23,
+    "health": 160,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_IUSQ671",
+    "coordinatesId": 22,
+    "chapterId": 94,
+    "health": 167,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TWNW672",
+    "coordinatesId": 18,
+    "chapterId": 79,
+    "health": 183,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_GCVF673",
+    "coordinatesId": 95,
+    "chapterId": 6,
+    "health": 133,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_GBUF674",
+    "coordinatesId": 91,
+    "chapterId": 94,
+    "health": 115,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_QJVW675",
+    "coordinatesId": 57,
+    "chapterId": 28,
+    "health": 160,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_BTSI676",
+    "coordinatesId": 56,
+    "chapterId": 92,
+    "health": 185,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_SGDM677",
+    "coordinatesId": 16,
+    "chapterId": 71,
+    "health": 46,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RGRC678",
+    "coordinatesId": 88,
+    "chapterId": 45,
+    "health": 90,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VWRA679",
+    "coordinatesId": 88,
+    "chapterId": 17,
+    "health": 4,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_WKYR680",
+    "coordinatesId": 9,
+    "chapterId": 91,
+    "health": 126,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_NCJP681",
+    "coordinatesId": 5,
+    "chapterId": 49,
+    "health": 23,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ASHT682",
+    "coordinatesId": 47,
+    "chapterId": 74,
+    "health": 55,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_GYPG683",
+    "coordinatesId": 9,
+    "chapterId": 86,
+    "health": 5,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_VNNK684",
+    "coordinatesId": 18,
+    "chapterId": 83,
+    "health": 125,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_JSSN685",
+    "coordinatesId": 81,
+    "chapterId": 52,
+    "health": 158,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YPGA686",
+    "coordinatesId": 15,
+    "chapterId": 47,
+    "health": 40,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_GDQG687",
+    "coordinatesId": 29,
+    "chapterId": 75,
+    "health": 101,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_JXOT688",
+    "coordinatesId": 30,
+    "chapterId": 3,
+    "health": 64,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_OSXJ689",
+    "coordinatesId": 16,
+    "chapterId": 32,
+    "health": 61,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_MPJC690",
+    "coordinatesId": 13,
+    "chapterId": 49,
+    "health": 31,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_TEZB691",
+    "coordinatesId": 87,
+    "chapterId": 63,
+    "health": 84,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_XFFU692",
+    "coordinatesId": 81,
+    "chapterId": 32,
+    "health": 117,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ZYZD693",
+    "coordinatesId": 70,
+    "chapterId": 12,
+    "health": 176,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ZCMS694",
+    "coordinatesId": 44,
+    "chapterId": 74,
+    "health": 173,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_XSUS695",
+    "coordinatesId": 50,
+    "chapterId": 95,
+    "health": 143,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_YVOO696",
+    "coordinatesId": 10,
+    "chapterId": 81,
+    "health": 123,
+    "loyal": null,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_GRCI697",
+    "coordinatesId": 7,
+    "chapterId": 80,
+    "health": 35,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_IXOL698",
+    "coordinatesId": 39,
+    "chapterId": 1,
+    "health": 35,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_KNIB699",
+    "coordinatesId": 29,
+    "chapterId": 50,
+    "health": 173,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_QVOZ700",
+    "coordinatesId": 51,
+    "chapterId": 17,
+    "health": 85,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_CDOW701",
+    "coordinatesId": 93,
+    "chapterId": 12,
+    "health": 84,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_AGZF702",
+    "coordinatesId": 5,
+    "chapterId": 64,
+    "health": 26,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_KXLG703",
+    "coordinatesId": 75,
+    "chapterId": 90,
+    "health": 16,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ZKYK704",
+    "coordinatesId": 56,
+    "chapterId": 6,
+    "health": 12,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BEWW705",
+    "coordinatesId": 92,
+    "chapterId": 92,
+    "health": 154,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_UPAT706",
+    "coordinatesId": 98,
+    "chapterId": 45,
+    "health": 200,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_LBMW707",
+    "coordinatesId": 41,
+    "chapterId": 83,
+    "health": 56,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ENWM708",
+    "coordinatesId": 95,
+    "chapterId": 95,
+    "health": 136,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_SLNC709",
+    "coordinatesId": 66,
+    "chapterId": 11,
+    "health": 20,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_MTLW710",
+    "coordinatesId": 84,
+    "chapterId": 98,
+    "health": 173,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_NLIP711",
+    "coordinatesId": 44,
+    "chapterId": 84,
+    "health": 119,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_KAMT712",
+    "coordinatesId": 18,
+    "chapterId": 95,
+    "health": 175,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_HIBD713",
+    "coordinatesId": 85,
+    "chapterId": 30,
+    "health": 143,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_XCEO714",
+    "coordinatesId": 10,
+    "chapterId": 31,
+    "health": 131,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_HJWZ715",
+    "coordinatesId": 21,
+    "chapterId": 31,
+    "health": 91,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YCVH716",
+    "coordinatesId": 29,
+    "chapterId": 98,
+    "health": 32,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_AGOB717",
+    "coordinatesId": 67,
+    "chapterId": 94,
+    "health": 163,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TCDZ718",
+    "coordinatesId": 91,
+    "chapterId": 73,
+    "health": 56,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_REPU719",
+    "coordinatesId": 67,
+    "chapterId": 86,
+    "health": 179,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_EWMU720",
+    "coordinatesId": 11,
+    "chapterId": 99,
+    "health": 46,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_GPWU721",
+    "coordinatesId": 90,
+    "chapterId": 3,
+    "health": 59,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_FDWF722",
+    "coordinatesId": 4,
+    "chapterId": 15,
+    "health": 117,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_AREZ723",
+    "coordinatesId": 45,
+    "chapterId": 59,
+    "health": 37,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TQRM724",
+    "coordinatesId": 83,
+    "chapterId": 26,
+    "health": 116,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_KHYD725",
+    "coordinatesId": 95,
+    "chapterId": 72,
+    "health": 146,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_AKUW726",
+    "coordinatesId": 58,
+    "chapterId": 88,
+    "health": 130,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_PLOK727",
+    "coordinatesId": 59,
+    "chapterId": 31,
+    "health": 85,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_XUEG728",
+    "coordinatesId": 72,
+    "chapterId": 23,
+    "health": 146,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_JSWF729",
+    "coordinatesId": 54,
+    "chapterId": 3,
+    "health": 28,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_DGBB730",
+    "coordinatesId": 34,
+    "chapterId": 21,
+    "health": 45,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_JKKI731",
+    "coordinatesId": 76,
+    "chapterId": 69,
+    "health": 148,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PEPS732",
+    "coordinatesId": 5,
+    "chapterId": 90,
+    "health": 198,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_FBZW733",
+    "coordinatesId": 78,
+    "chapterId": 93,
+    "health": 110,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_SIOW734",
+    "coordinatesId": 8,
+    "chapterId": 65,
+    "health": 36,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_PHJK735",
+    "coordinatesId": 88,
+    "chapterId": 61,
+    "health": 180,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_RLDX736",
+    "coordinatesId": 97,
+    "chapterId": 14,
+    "health": 116,
+    "loyal": true,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PLDB737",
+    "coordinatesId": 96,
+    "chapterId": 51,
+    "health": 141,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_IJOY738",
+    "coordinatesId": 79,
+    "chapterId": 88,
+    "health": 65,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_KXOS739",
+    "coordinatesId": 28,
+    "chapterId": 83,
+    "health": 70,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_FEJL740",
+    "coordinatesId": 4,
+    "chapterId": 9,
+    "health": 30,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_XBTE741",
+    "coordinatesId": 25,
+    "chapterId": 83,
+    "health": 188,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_VHIO742",
+    "coordinatesId": 63,
+    "chapterId": 26,
+    "health": 127,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_JTOQ743",
+    "coordinatesId": 20,
+    "chapterId": 37,
+    "health": 168,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_YVHW744",
+    "coordinatesId": 15,
+    "chapterId": 45,
+    "health": 187,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PBFM745",
+    "coordinatesId": 17,
+    "chapterId": 33,
+    "health": 145,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_DDIN746",
+    "coordinatesId": 58,
+    "chapterId": 94,
+    "health": 144,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_IAFG747",
+    "coordinatesId": 4,
+    "chapterId": 87,
+    "health": 18,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KHDN748",
+    "coordinatesId": 91,
+    "chapterId": 8,
+    "health": 190,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_HMDF749",
+    "coordinatesId": 79,
+    "chapterId": 96,
+    "health": 77,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_LWLA750",
+    "coordinatesId": 76,
+    "chapterId": 26,
+    "health": 167,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_PBJO751",
+    "coordinatesId": 15,
+    "chapterId": 29,
+    "health": 171,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ZFXI752",
+    "coordinatesId": 12,
+    "chapterId": 8,
+    "health": 128,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_JOBQ753",
+    "coordinatesId": 19,
+    "chapterId": 26,
+    "health": 163,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_NZKF754",
+    "coordinatesId": 31,
+    "chapterId": 42,
+    "health": 151,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_SBSJ755",
+    "coordinatesId": 43,
+    "chapterId": 12,
+    "health": 66,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_KBDU756",
+    "coordinatesId": 86,
+    "chapterId": 7,
+    "health": 3,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_GUZZ757",
+    "coordinatesId": 45,
+    "chapterId": 9,
+    "health": 186,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ZVUT758",
+    "coordinatesId": 90,
+    "chapterId": 12,
+    "health": 164,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_ZCYH759",
+    "coordinatesId": 68,
+    "chapterId": 56,
+    "health": 132,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_OZHJ760",
+    "coordinatesId": 75,
+    "chapterId": 66,
+    "health": 12,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_YNED761",
+    "coordinatesId": 9,
+    "chapterId": 22,
+    "health": 16,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ZOXS762",
+    "coordinatesId": 91,
+    "chapterId": 49,
+    "health": 94,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_CIOB763",
+    "coordinatesId": 85,
+    "chapterId": 54,
+    "health": 195,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_DPVY764",
+    "coordinatesId": 14,
+    "chapterId": 36,
+    "health": 1,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_JNXB765",
+    "coordinatesId": 42,
+    "chapterId": 12,
+    "health": 144,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_VJNX766",
+    "coordinatesId": 28,
+    "chapterId": 37,
+    "health": 114,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_AWRS767",
+    "coordinatesId": 3,
+    "chapterId": 21,
+    "health": 163,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_RZGT768",
+    "coordinatesId": 95,
+    "chapterId": 86,
+    "health": 31,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VYOX769",
+    "coordinatesId": 88,
+    "chapterId": 30,
+    "health": 26,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_IJMH770",
+    "coordinatesId": 26,
+    "chapterId": 4,
+    "health": 115,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RXQX771",
+    "coordinatesId": 79,
+    "chapterId": 2,
+    "health": 21,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_TDCO772",
+    "coordinatesId": 27,
+    "chapterId": 36,
+    "health": 118,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_FYPA773",
+    "coordinatesId": 19,
+    "chapterId": 9,
+    "health": 157,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_YDKC774",
+    "coordinatesId": 39,
+    "chapterId": 89,
+    "health": 37,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_DROH775",
+    "coordinatesId": 48,
+    "chapterId": 72,
+    "health": 76,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_DAOL776",
+    "coordinatesId": 52,
+    "chapterId": 82,
+    "health": 136,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_BCEV777",
+    "coordinatesId": 85,
+    "chapterId": 91,
+    "health": 90,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_YULJ778",
+    "coordinatesId": 96,
+    "chapterId": 53,
+    "health": 48,
+    "loyal": false,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BDTH779",
+    "coordinatesId": 64,
+    "chapterId": 68,
+    "health": 2,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_OKVS780",
+    "coordinatesId": 50,
+    "chapterId": 23,
+    "health": 111,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ZDCA781",
+    "coordinatesId": 47,
+    "chapterId": 38,
+    "health": 129,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_FWCX782",
+    "coordinatesId": 16,
+    "chapterId": 8,
+    "health": 198,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_UXJX783",
+    "coordinatesId": 65,
+    "chapterId": 34,
+    "health": 45,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_QAQI784",
+    "coordinatesId": 84,
+    "chapterId": 54,
+    "health": 141,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_QILR785",
+    "coordinatesId": 6,
+    "chapterId": 67,
+    "health": 31,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_UWSQ786",
+    "coordinatesId": 98,
+    "chapterId": 21,
+    "health": 138,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_IPCJ787",
+    "coordinatesId": 14,
+    "chapterId": 14,
+    "health": 44,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_DDYM788",
+    "coordinatesId": 85,
+    "chapterId": 24,
+    "health": 189,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_HJDG789",
+    "coordinatesId": 33,
+    "chapterId": 46,
+    "health": 64,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_QBBA790",
+    "coordinatesId": 54,
+    "chapterId": 2,
+    "health": 176,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ISFY791",
+    "coordinatesId": 78,
+    "chapterId": 30,
+    "health": 24,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_VNRW792",
+    "coordinatesId": 34,
+    "chapterId": 39,
+    "health": 191,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_IORQ793",
+    "coordinatesId": 87,
+    "chapterId": 52,
+    "health": 18,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_FBEM794",
+    "coordinatesId": 46,
+    "chapterId": 56,
+    "health": 49,
+    "loyal": null,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_KLHM795",
+    "coordinatesId": 41,
+    "chapterId": 28,
+    "health": 72,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_MRGO796",
+    "coordinatesId": 30,
+    "chapterId": 29,
+    "health": 66,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_OTEH797",
+    "coordinatesId": 64,
+    "chapterId": 49,
+    "health": 62,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_FWHK798",
+    "coordinatesId": 68,
+    "chapterId": 53,
+    "health": 34,
+    "loyal": false,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_OPDH799",
+    "coordinatesId": 11,
+    "chapterId": 23,
+    "health": 136,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_KACM800",
+    "coordinatesId": 89,
+    "chapterId": 31,
+    "health": 132,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YKBP801",
+    "coordinatesId": 38,
+    "chapterId": 30,
+    "health": 14,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_DRSR802",
+    "coordinatesId": 41,
+    "chapterId": 72,
+    "health": 180,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_BSRK803",
+    "coordinatesId": 73,
+    "chapterId": 15,
+    "health": 7,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_SHNF804",
+    "coordinatesId": 87,
+    "chapterId": 35,
+    "health": 9,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_WINU805",
+    "coordinatesId": 95,
+    "chapterId": 17,
+    "health": 192,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_AKMR806",
+    "coordinatesId": 43,
+    "chapterId": 2,
+    "health": 102,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_EXFA807",
+    "coordinatesId": 28,
+    "chapterId": 12,
+    "health": 77,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ABSM808",
+    "coordinatesId": 21,
+    "chapterId": 32,
+    "health": 57,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_LBAU809",
+    "coordinatesId": 27,
+    "chapterId": 65,
+    "health": 167,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VYTA810",
+    "coordinatesId": 18,
+    "chapterId": 47,
+    "health": 113,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_RHAK811",
+    "coordinatesId": 1,
+    "chapterId": 44,
+    "health": 34,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ESBM812",
+    "coordinatesId": 23,
+    "chapterId": 60,
+    "health": 18,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ORWW813",
+    "coordinatesId": 7,
+    "chapterId": 10,
+    "health": 159,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_XUKS814",
+    "coordinatesId": 39,
+    "chapterId": 69,
+    "health": 174,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BWTQ815",
+    "coordinatesId": 55,
+    "chapterId": 85,
+    "health": 42,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_AHBG816",
+    "coordinatesId": 87,
+    "chapterId": 90,
+    "health": 2,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_CBTE817",
+    "coordinatesId": 42,
+    "chapterId": 44,
+    "health": 174,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_UISI818",
+    "coordinatesId": 69,
+    "chapterId": 39,
+    "health": 110,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_HDFE819",
+    "coordinatesId": 92,
+    "chapterId": 50,
+    "health": 117,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BAYB820",
+    "coordinatesId": 65,
+    "chapterId": 75,
+    "health": 107,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_BCUF821",
+    "coordinatesId": 63,
+    "chapterId": 61,
+    "health": 152,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YADZ822",
+    "coordinatesId": 97,
+    "chapterId": 17,
+    "health": 30,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_YTDR823",
+    "coordinatesId": 87,
+    "chapterId": 7,
+    "health": 55,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_SMRU824",
+    "coordinatesId": 80,
+    "chapterId": 60,
+    "health": 181,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_JGLL825",
+    "coordinatesId": 83,
+    "chapterId": 64,
+    "health": 115,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_UXUV826",
+    "coordinatesId": 51,
+    "chapterId": 85,
+    "health": 101,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_JFDG827",
+    "coordinatesId": 32,
+    "chapterId": 8,
+    "health": 172,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_AIZM828",
+    "coordinatesId": 88,
+    "chapterId": 18,
+    "health": 35,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_UDTB829",
+    "coordinatesId": 88,
+    "chapterId": 61,
+    "health": 125,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_TKSV830",
+    "coordinatesId": 29,
+    "chapterId": 94,
+    "health": 176,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_GKZU831",
+    "coordinatesId": 9,
+    "chapterId": 38,
+    "health": 12,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_BAFR832",
+    "coordinatesId": 14,
+    "chapterId": 27,
+    "health": 41,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_DBTJ833",
+    "coordinatesId": 69,
+    "chapterId": 80,
+    "health": 8,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_DWQC834",
+    "coordinatesId": 66,
+    "chapterId": 16,
+    "health": 180,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_GTVP835",
+    "coordinatesId": 65,
+    "chapterId": 59,
+    "health": 35,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_PVJF836",
+    "coordinatesId": 15,
+    "chapterId": 22,
+    "health": 117,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_XKTD837",
+    "coordinatesId": 24,
+    "chapterId": 25,
+    "health": 173,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_DHAM838",
+    "coordinatesId": 96,
+    "chapterId": 26,
+    "health": 142,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_IGWU839",
+    "coordinatesId": 40,
+    "chapterId": 72,
+    "health": 148,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_JBGB840",
+    "coordinatesId": 56,
+    "chapterId": 57,
+    "health": 144,
+    "loyal": false,
+    "category": null,
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_EDAU841",
+    "coordinatesId": 94,
+    "chapterId": 52,
+    "health": 19,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_AGCC842",
+    "coordinatesId": 95,
+    "chapterId": 81,
+    "health": 54,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_MPBZ843",
+    "coordinatesId": 66,
+    "chapterId": 59,
+    "health": 65,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_QQUF844",
+    "coordinatesId": 50,
+    "chapterId": 81,
+    "health": 16,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_TGWU845",
+    "coordinatesId": 37,
+    "chapterId": 52,
+    "health": 42,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ILJT846",
+    "coordinatesId": 39,
+    "chapterId": 95,
+    "health": 92,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_JDHM847",
+    "coordinatesId": 96,
+    "chapterId": 10,
+    "health": 127,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_HZIF848",
+    "coordinatesId": 74,
+    "chapterId": 55,
+    "health": 73,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_UKPX849",
+    "coordinatesId": 50,
+    "chapterId": 96,
+    "health": 129,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_VYVI850",
+    "coordinatesId": 4,
+    "chapterId": 95,
+    "health": 5,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_HIMR851",
+    "coordinatesId": 65,
+    "chapterId": 82,
+    "health": 173,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RTTY852",
+    "coordinatesId": 17,
+    "chapterId": 85,
+    "health": 168,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_KGAN853",
+    "coordinatesId": 33,
+    "chapterId": 76,
+    "health": 102,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_AXDL854",
+    "coordinatesId": 6,
+    "chapterId": 21,
+    "health": 92,
+    "loyal": null,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_KUVZ855",
+    "coordinatesId": 86,
+    "chapterId": 57,
+    "health": 51,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_TWBU856",
+    "coordinatesId": 94,
+    "chapterId": 68,
+    "health": 115,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_KNHV857",
+    "coordinatesId": 89,
+    "chapterId": 17,
+    "health": 182,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_QKSG858",
+    "coordinatesId": 52,
+    "chapterId": 100,
+    "health": 52,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_OWIZ859",
+    "coordinatesId": 70,
+    "chapterId": 39,
+    "health": 96,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_VTOJ860",
+    "coordinatesId": 9,
+    "chapterId": 5,
+    "health": 133,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_RGHW861",
+    "coordinatesId": 4,
+    "chapterId": 44,
+    "health": 199,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_AJRX862",
+    "coordinatesId": 66,
+    "chapterId": 61,
+    "health": 167,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_EYHI863",
+    "coordinatesId": 14,
+    "chapterId": 14,
+    "health": 191,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_LJJO864",
+    "coordinatesId": 71,
+    "chapterId": 67,
+    "health": 199,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_QGQO865",
+    "coordinatesId": 90,
+    "chapterId": 17,
+    "health": 68,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_DSJD866",
+    "coordinatesId": 50,
+    "chapterId": 32,
+    "health": 98,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_TPAP867",
+    "coordinatesId": 15,
+    "chapterId": 17,
+    "health": 96,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_GXJK868",
+    "coordinatesId": 58,
+    "chapterId": 70,
+    "health": 158,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ZMUA869",
+    "coordinatesId": 70,
+    "chapterId": 45,
+    "health": 91,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_TURT870",
+    "coordinatesId": 18,
+    "chapterId": 73,
+    "health": 156,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_TTWX871",
+    "coordinatesId": 78,
+    "chapterId": 88,
+    "health": 72,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ECOG872",
+    "coordinatesId": 85,
+    "chapterId": 50,
+    "health": 29,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_SXLG873",
+    "coordinatesId": 20,
+    "chapterId": 40,
+    "health": 82,
+    "loyal": false,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_ZNTM874",
+    "coordinatesId": 22,
+    "chapterId": 63,
+    "health": 101,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_XPRN875",
+    "coordinatesId": 60,
+    "chapterId": 30,
+    "health": 160,
+    "loyal": true,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ACNQ876",
+    "coordinatesId": 82,
+    "chapterId": 59,
+    "health": 37,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_NRFN877",
+    "coordinatesId": 76,
+    "chapterId": 30,
+    "health": 180,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_AGJC878",
+    "coordinatesId": 13,
+    "chapterId": 40,
+    "health": 18,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_WORA879",
+    "coordinatesId": 8,
+    "chapterId": 87,
+    "health": 93,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_CLND880",
+    "coordinatesId": 73,
+    "chapterId": 77,
+    "health": 85,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_QJYY881",
+    "coordinatesId": 39,
+    "chapterId": 22,
+    "health": 121,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ZKKO882",
+    "coordinatesId": 65,
+    "chapterId": 43,
+    "health": 120,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_EPJT883",
+    "coordinatesId": 93,
+    "chapterId": 93,
+    "health": 44,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_FZNO884",
+    "coordinatesId": 20,
+    "chapterId": 36,
+    "health": 19,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_KIXQ885",
+    "coordinatesId": 61,
+    "chapterId": 40,
+    "health": 80,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_GMQA886",
+    "coordinatesId": 72,
+    "chapterId": 65,
+    "health": 67,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_HUOO887",
+    "coordinatesId": 98,
+    "chapterId": 21,
+    "health": 175,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_UEZV888",
+    "coordinatesId": 87,
+    "chapterId": 2,
+    "health": 158,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_YPKS889",
+    "coordinatesId": 64,
+    "chapterId": 11,
+    "health": 41,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_HZXQ890",
+    "coordinatesId": 32,
+    "chapterId": 95,
+    "health": 187,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_DVUS891",
+    "coordinatesId": 2,
+    "chapterId": 77,
+    "health": 144,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ILAV892",
+    "coordinatesId": 45,
+    "chapterId": 92,
+    "health": 182,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_DDQZ893",
+    "coordinatesId": 33,
+    "chapterId": 36,
+    "health": 45,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_FTDM894",
+    "coordinatesId": 42,
+    "chapterId": 8,
+    "health": 51,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_JJXZ895",
+    "coordinatesId": 83,
+    "chapterId": 14,
+    "health": 55,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_YNPM896",
+    "coordinatesId": 6,
+    "chapterId": 67,
+    "health": 58,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_UPEA897",
+    "coordinatesId": 43,
+    "chapterId": 59,
+    "health": 55,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_EUJC898",
+    "coordinatesId": 49,
+    "chapterId": 13,
+    "health": 78,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_SDNY899",
+    "coordinatesId": 63,
+    "chapterId": 3,
+    "health": 128,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VGGD900",
+    "coordinatesId": 42,
+    "chapterId": 33,
+    "health": 127,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_OYFP901",
+    "coordinatesId": 98,
+    "chapterId": 93,
+    "health": 104,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_DQXV902",
+    "coordinatesId": 8,
+    "chapterId": 80,
+    "health": 86,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_RQUG903",
+    "coordinatesId": 99,
+    "chapterId": 47,
+    "health": 171,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_FVJN904",
+    "coordinatesId": 57,
+    "chapterId": 71,
+    "health": 29,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_FBZQ905",
+    "coordinatesId": 48,
+    "chapterId": 18,
+    "health": 89,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_YNME906",
+    "coordinatesId": 100,
+    "chapterId": 37,
+    "health": 69,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_JSGF907",
+    "coordinatesId": 79,
+    "chapterId": 12,
+    "health": 43,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_EXWD908",
+    "coordinatesId": 57,
+    "chapterId": 23,
+    "health": 139,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_DIEH909",
+    "coordinatesId": 69,
+    "chapterId": 66,
+    "health": 59,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_BUUT910",
+    "coordinatesId": 43,
+    "chapterId": 26,
+    "health": 99,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_IZQD911",
+    "coordinatesId": 91,
+    "chapterId": 3,
+    "health": 79,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_RVNS912",
+    "coordinatesId": 39,
+    "chapterId": 52,
+    "health": 192,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_KLBK913",
+    "coordinatesId": 12,
+    "chapterId": 72,
+    "health": 118,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_MDGJ914",
+    "coordinatesId": 46,
+    "chapterId": 91,
+    "health": 112,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_XDVG915",
+    "coordinatesId": 7,
+    "chapterId": 56,
+    "health": 22,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_KCNW916",
+    "coordinatesId": 21,
+    "chapterId": 25,
+    "health": 190,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_XXFZ917",
+    "coordinatesId": 85,
+    "chapterId": 31,
+    "health": 122,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_PODW918",
+    "coordinatesId": 14,
+    "chapterId": 68,
+    "health": 83,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_TOMQ919",
+    "coordinatesId": 57,
+    "chapterId": 98,
+    "health": 13,
+    "loyal": null,
+    "category": null,
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_UVGN920",
+    "coordinatesId": 34,
+    "chapterId": 74,
+    "health": 33,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_SXQR921",
+    "coordinatesId": 37,
+    "chapterId": 46,
+    "health": 50,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BAFI922",
+    "coordinatesId": 2,
+    "chapterId": 71,
+    "health": 196,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_KARG923",
+    "coordinatesId": 27,
+    "chapterId": 41,
+    "health": 62,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_SXVN924",
+    "coordinatesId": 9,
+    "chapterId": 96,
+    "health": 79,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_MGHP925",
+    "coordinatesId": 48,
+    "chapterId": 53,
+    "health": 172,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_ZICX926",
+    "coordinatesId": 100,
+    "chapterId": 63,
+    "health": 24,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_XKAH927",
+    "coordinatesId": 52,
+    "chapterId": 4,
+    "health": 65,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VDAT928",
+    "coordinatesId": 83,
+    "chapterId": 16,
+    "health": 186,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_AZLO929",
+    "coordinatesId": 82,
+    "chapterId": 54,
+    "health": 85,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_INDE930",
+    "coordinatesId": 8,
+    "chapterId": 8,
+    "health": 185,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KCQT931",
+    "coordinatesId": 60,
+    "chapterId": 75,
+    "health": 162,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_KWTY932",
+    "coordinatesId": 94,
+    "chapterId": 99,
+    "health": 61,
+    "loyal": true,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_IILI933",
+    "coordinatesId": 11,
+    "chapterId": 69,
+    "health": 85,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_RXSF934",
+    "coordinatesId": 80,
+    "chapterId": 47,
+    "health": 24,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_NJCZ935",
+    "coordinatesId": 2,
+    "chapterId": 8,
+    "health": 103,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_AABC936",
+    "coordinatesId": 85,
+    "chapterId": 9,
+    "health": 55,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_QFGI937",
+    "coordinatesId": 32,
+    "chapterId": 49,
+    "health": 142,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_BPUY938",
+    "coordinatesId": 18,
+    "chapterId": 65,
+    "health": 29,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_FEYA939",
+    "coordinatesId": 14,
+    "chapterId": 42,
+    "health": 69,
+    "loyal": false,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_KBZN940",
+    "coordinatesId": 98,
+    "chapterId": 99,
+    "health": 147,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_HFRQ941",
+    "coordinatesId": 81,
+    "chapterId": 31,
+    "health": 167,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_MAGQ942",
+    "coordinatesId": 66,
+    "chapterId": 39,
+    "health": 107,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_JOTE943",
+    "coordinatesId": 71,
+    "chapterId": 76,
+    "health": 117,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_LNCX944",
+    "coordinatesId": 43,
+    "chapterId": 90,
+    "health": 128,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_OZMJ945",
+    "coordinatesId": 72,
+    "chapterId": 44,
+    "health": 125,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_GFZH946",
+    "coordinatesId": 85,
+    "chapterId": 26,
+    "health": 50,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_NBUZ947",
+    "coordinatesId": 65,
+    "chapterId": 61,
+    "health": 10,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_PLUF948",
+    "coordinatesId": 42,
+    "chapterId": 74,
+    "health": 196,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_LOWI949",
+    "coordinatesId": 23,
+    "chapterId": 46,
+    "health": 152,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_NNUU950",
+    "coordinatesId": 37,
+    "chapterId": 20,
+    "health": 90,
+    "loyal": false,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_GRWD951",
+    "coordinatesId": 15,
+    "chapterId": 15,
+    "health": 143,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_AEAA952",
+    "coordinatesId": 19,
+    "chapterId": 83,
+    "health": 156,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_BSHU953",
+    "coordinatesId": 1,
+    "chapterId": 58,
+    "health": 197,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_GEAI954",
+    "coordinatesId": 55,
+    "chapterId": 15,
+    "health": 20,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_HJAZ955",
+    "coordinatesId": 80,
+    "chapterId": 46,
+    "health": 180,
+    "loyal": null,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_HGWO956",
+    "coordinatesId": 39,
+    "chapterId": 35,
+    "health": 181,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_ZCBJ957",
+    "coordinatesId": 96,
+    "chapterId": 35,
+    "health": 184,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_PVVX958",
+    "coordinatesId": 18,
+    "chapterId": 61,
+    "health": 114,
+    "loyal": null,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_WWAI959",
+    "coordinatesId": 53,
+    "chapterId": 30,
+    "health": 123,
+    "loyal": false,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_GXJY960",
+    "coordinatesId": 25,
+    "chapterId": 82,
+    "health": 89,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_QBNV961",
+    "coordinatesId": 90,
+    "chapterId": 47,
+    "health": 118,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_SBML962",
+    "coordinatesId": 74,
+    "chapterId": 61,
+    "health": 6,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_NGEX963",
+    "coordinatesId": 23,
+    "chapterId": 1,
+    "health": 52,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_GBQF964",
+    "coordinatesId": 9,
+    "chapterId": 7,
+    "health": 180,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_VCGP965",
+    "coordinatesId": 83,
+    "chapterId": 65,
+    "health": 48,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_IRWN966",
+    "coordinatesId": 58,
+    "chapterId": 78,
+    "health": 82,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_OXKS967",
+    "coordinatesId": 28,
+    "chapterId": 85,
+    "health": 79,
+    "loyal": true,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_LLNX968",
+    "coordinatesId": 86,
+    "chapterId": 48,
+    "health": 149,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_ADAB969",
+    "coordinatesId": 93,
+    "chapterId": 91,
+    "health": 29,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_KUDN970",
+    "coordinatesId": 18,
+    "chapterId": 10,
+    "health": 103,
+    "loyal": true,
+    "category": "APOTHECARY",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_JIPS971",
+    "coordinatesId": 91,
+    "chapterId": 87,
+    "health": 55,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_TXAD972",
+    "coordinatesId": 56,
+    "chapterId": 37,
+    "health": 65,
+    "loyal": true,
+    "category": "AGGRESSOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_NMGO973",
+    "coordinatesId": 77,
+    "chapterId": 5,
+    "health": 61,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_JQFV974",
+    "coordinatesId": 76,
+    "chapterId": 75,
+    "health": 59,
+    "loyal": true,
+    "category": null,
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_WUTS975",
+    "coordinatesId": 72,
+    "chapterId": 20,
+    "health": 17,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_RWTC976",
+    "coordinatesId": 14,
+    "chapterId": 44,
+    "health": 40,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_HNWE977",
+    "coordinatesId": 56,
+    "chapterId": 25,
+    "health": 15,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_SABW978",
+    "coordinatesId": 32,
+    "chapterId": 36,
+    "health": 24,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_YOSG979",
+    "coordinatesId": 99,
+    "chapterId": 3,
+    "health": 53,
+    "loyal": null,
+    "category": "APOTHECARY",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_BYTS980",
+    "coordinatesId": 72,
+    "chapterId": 95,
+    "health": 189,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_HEQW981",
+    "coordinatesId": 70,
+    "chapterId": 36,
+    "health": 145,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_LBUE982",
+    "coordinatesId": 61,
+    "chapterId": 40,
+    "health": 13,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_LSVX983",
+    "coordinatesId": 72,
+    "chapterId": 34,
+    "health": 105,
+    "loyal": true,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_AZFO984",
+    "coordinatesId": 44,
+    "chapterId": 90,
+    "health": 2,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_FJIR985",
+    "coordinatesId": 78,
+    "chapterId": 5,
+    "health": 39,
+    "loyal": true,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_MRRV986",
+    "coordinatesId": 47,
+    "chapterId": 56,
+    "health": 36,
+    "loyal": true,
+    "category": "INCEPTOR",
+    "weaponType": "FLAMER"
+  },
+  {
+    "name": "Brother_BDSK987",
+    "coordinatesId": 81,
+    "chapterId": 96,
+    "health": 118,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_HZAI988",
+    "coordinatesId": 94,
+    "chapterId": 7,
+    "health": 87,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_RKGI989",
+    "coordinatesId": 35,
+    "chapterId": 34,
+    "health": 73,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_EDRN990",
+    "coordinatesId": 41,
+    "chapterId": 95,
+    "health": 145,
+    "loyal": null,
+    "category": null,
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_DUBX991",
+    "coordinatesId": 22,
+    "chapterId": 39,
+    "health": 54,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_BPAC992",
+    "coordinatesId": 96,
+    "chapterId": 39,
+    "health": 10,
+    "loyal": false,
+    "category": "APOTHECARY",
+    "weaponType": "HEAVY_BOLTGUN"
+  },
+  {
+    "name": "Brother_EOWB993",
+    "coordinatesId": 72,
+    "chapterId": 31,
+    "health": 77,
+    "loyal": false,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_PWBZ994",
+    "coordinatesId": 28,
+    "chapterId": 63,
+    "health": 145,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_WVFL995",
+    "coordinatesId": 66,
+    "chapterId": 34,
+    "health": 162,
+    "loyal": null,
+    "category": null,
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_IBAV996",
+    "coordinatesId": 94,
+    "chapterId": 41,
+    "health": 20,
+    "loyal": false,
+    "category": "INCEPTOR",
+    "weaponType": "MULTI_MELTA"
+  },
+  {
+    "name": "Brother_GQQA997",
+    "coordinatesId": 55,
+    "chapterId": 53,
+    "health": 138,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "HEAVY_FLAMER"
+  },
+  {
+    "name": "Brother_VFXJ998",
+    "coordinatesId": 65,
+    "chapterId": 76,
+    "health": 111,
+    "loyal": null,
+    "category": "INCEPTOR",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_IHIT999",
+    "coordinatesId": 52,
+    "chapterId": 11,
+    "health": 28,
+    "loyal": null,
+    "category": "TACTICAL",
+    "weaponType": "BOLTGUN"
+  },
+  {
+    "name": "Brother_WILQ1000",
+    "coordinatesId": 21,
+    "chapterId": 70,
+    "health": 57,
+    "loyal": null,
+    "category": "CHAPLAIN",
+    "weaponType": "MULTI_MELTA"
+  }
+]

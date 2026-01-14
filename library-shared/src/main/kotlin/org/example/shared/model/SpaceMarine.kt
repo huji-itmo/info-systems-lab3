@@ -1,6 +1,7 @@
 package org.example.shared.model
 
 import com.fasterxml.jackson.annotation.JsonFormat
+import jakarta.persistence.Cacheable
 import jakarta.persistence.Column
 import jakarta.persistence.Entity
 import jakarta.persistence.EnumType
@@ -17,6 +18,7 @@ import java.time.LocalDateTime
 
 @Entity
 @Table(name = "space_marines")
+@Cacheable(true)
 data class SpaceMarine(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

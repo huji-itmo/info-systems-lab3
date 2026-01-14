@@ -3,10 +3,13 @@ WORKDIR /usr/src/
 
 COPY settings.gradle.kts ./
 COPY file-service/build.gradle.kts ./file-service/build.gradle.kts
+COPY library-shared/build.gradle.kts ./library-shared/build.gradle.kts
+COPY payara-service/build.gradle.kts ./payara-service/build.gradle.kts
 
-RUN gradle --no-daemon --refresh-dependencies dependencies
 
-COPY file-service/src file-service/src
+COPY file-service/src ./file-service/src
+COPY library-shared/src ./library-shared/src
+COPY payara-service/src ./payara-service/src
 
 RUN gradle :file-service:build --no-daemon
 

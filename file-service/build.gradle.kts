@@ -43,8 +43,11 @@ dependencies {
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
-	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
+    implementation("org.hibernate.orm:hibernate-jcache:7.2.0.Final")
+    implementation("org.ehcache:ehcache")
+
+    implementation("net.bytebuddy:byte-buddy:1.18.2")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.20.1")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.1")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.20.1")
@@ -54,6 +57,9 @@ dependencies {
     implementation(project(":library-shared"))
 
     testImplementation("com.h2database:h2")
+	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+
 }
 
 kotlin {

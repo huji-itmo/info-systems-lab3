@@ -10,12 +10,14 @@ WORKDIR /usr/src/
 
 COPY ./settings.gradle.kts ./
 
-COPY payara-service/build.gradle.kts payara-service/build.gradle.kts
+COPY payara-service/build.gradle.kts ./payara-service/build.gradle.kts
+COPY library-shared/build.gradle.kts ./library-shared/build.gradle.kts
+COPY file-service/build.gradle.kts ./file-service/build.gradle.kts
 
 
-RUN gradle --no-daemon --refresh-dependencies dependencies
-
-COPY payara-service/src payara-service/src
+COPY payara-service/src ./payara-service/src
+COPY library-shared/src ./library-shared/src
+COPY file-service/src ./file-service/src
 
 COPY --from=frontend-builder /app/out/ payara-service/src/main/webapp/
 

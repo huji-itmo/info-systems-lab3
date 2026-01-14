@@ -13,6 +13,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     compileOnly("jakarta.platform:jakarta.jakartaee-api:11.0.0")
+    implementation("jakarta.persistence:jakarta.persistence-api:3.1.0")
 
     implementation("com.fasterxml.jackson.core:jackson-databind:2.20.1")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.1")

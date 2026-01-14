@@ -21,6 +21,7 @@ import {
 import {
   Pagination,
   PaginationContent,
+  PaginationEllipsis,
   PaginationItem,
   PaginationLink,
   PaginationNext,
@@ -46,8 +47,8 @@ export function ChapterSelector({ onSelect, selectedChapterId, disabled }: Chapt
   const [search, setSearch] = useState("");
   const [createDialogOpen, setCreateDialogOpen] = useState(false);
 
-  // Fixed: Proper query options typing with enabled state
-  const { data, isLoading, error } = useChapters(page, 5, {
+  const pageSize = 5
+  const { data, isLoading, error } = useChapters(page, pageSize, {
     enabled: open, // Only fetch when dialog is open
   });
 
@@ -177,16 +178,64 @@ export function ChapterSelector({ onSelect, selectedChapterId, disabled }: Chapt
                           className={page === 0 ? "pointer-events-none opacity-50" : "cursor-pointer"}
                         />
                       </PaginationItem>
-                      {[...Array(data.totalPages)].map((_, index) => (
-                        <PaginationItem key={index}>
-                          <PaginationLink
-                            onClick={() => setPage(index)}
-                            isActive={page === index}
-                          >
-                            {index + 1}
-                          </PaginationLink>
-                        </PaginationItem>
-                      ))}
+
+                      {/* Generate page items with max 5 visible */}
+                      {(() => {
+                        const totalPages = data.totalPages;
+                        let items: (number | string)[] = [];
+
+                        if (totalPages <= 5) {
+                          // Show all pages if 5 or fewer
+                          items = Array.from({ length: totalPages }, (_, i) => i + 1);
+                        } else {
+                          const current = page + 1; // Convert to 1-based index
+
+                          items = [1];
+
+                          // Add ellipsis and pages before current
+                          if (current > 3) {
+                            items.push('...');
+                          }
+
+                          // Add pages around current (max 3 pages)
+                          const startPage = Math.max(2, current - 1);
+                          const endPage = Math.min(totalPages - 1, current + 1);
+
+                          for (let i = startPage; i <= endPage; i++) {
+                            items.push(i);
+                          }
+
+                          // Add ellipsis and last page
+                          if (current < totalPages - 2) {
+                            items.push('...');
+                          }
+
+                          items.push(totalPages);
+                        }
+
+                        return items.map((item, index) => {
+                          if (item === '...') {
+                            return (
+                              <PaginationItem key={`ellipsis-${index}`}>
+                                <PaginationEllipsis />
+                              </PaginationItem>
+                            );
+                          }
+
+                          const pageNum = item as number;
+                          return (
+                            <PaginationItem key={pageNum}>
+                              <PaginationLink
+                                onClick={() => setPage(pageNum - 1)}
+                                isActive={page === pageNum - 1}
+                              >
+                                {pageNum}
+                              </PaginationLink>
+                            </PaginationItem>
+                          );
+                        });
+                      })()}
+
                       <PaginationItem>
                         <PaginationNext
                           onClick={() => setPage(prev => Math.min(data.totalPages - 1, prev + 1))}
@@ -197,6 +246,22 @@ export function ChapterSelector({ onSelect, selectedChapterId, disabled }: Chapt
                   </Pagination>
                 </div>
               )}
+
+              {/* Total count footer */}
+              <div className="text-muted-foreground text-sm text-center">
+                {data ? (
+                  <>
+                    Showing{" "}
+                    <strong>
+                      {page * pageSize + 1}–
+                      {Math.min((page + 1) * pageSize, data.totalElements)}
+                    </strong>{" "}
+                    of <strong>{data.totalElements}</strong> Space Marines
+                  </>
+                ) : isLoading ? (
+                  "Loading..."
+                ) : null}
+              </div>
             </>
           )}
         </DialogContent>

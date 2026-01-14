@@ -12,6 +12,7 @@ import {
 import {
   Pagination,
   PaginationContent,
+  PaginationEllipsis,
   PaginationItem,
   PaginationLink,
   PaginationNext,
@@ -306,7 +307,6 @@ export function SpaceMarinesTable({ pageSize = 10 }: SpaceMarinesTableProps) {
         </Table>
       </div>
 
-      {/* Pagination */}
       {data && data.totalPages > 1 && (
         <div className="flex justify-center mt-4">
           <Pagination>
@@ -317,16 +317,64 @@ export function SpaceMarinesTable({ pageSize = 10 }: SpaceMarinesTableProps) {
                   className={page === 0 ? "pointer-events-none opacity-50" : "cursor-pointer"}
                 />
               </PaginationItem>
-              {[...Array(data.totalPages)].map((_, index) => (
-                <PaginationItem key={index}>
-                  <PaginationLink
-                    onClick={() => setPage(index)}
-                    isActive={page === index}
-                  >
-                    {index + 1}
-                  </PaginationLink>
-                </PaginationItem>
-              ))}
+
+              {/* Generate page items with max 5 visible */}
+              {(() => {
+                const totalPages = data.totalPages;
+                let items: (number | string)[] = [];
+
+                if (totalPages <= 5) {
+                  // Show all pages if 5 or fewer
+                  items = Array.from({ length: totalPages }, (_, i) => i + 1);
+                } else {
+                  const current = page + 1; // Convert to 1-based index
+
+                  items = [1];
+
+                  // Add ellipsis and pages before current
+                  if (current > 3) {
+                    items.push('...');
+                  }
+
+                  // Add pages around current (max 3 pages)
+                  const startPage = Math.max(2, current - 1);
+                  const endPage = Math.min(totalPages - 1, current + 1);
+
+                  for (let i = startPage; i <= endPage; i++) {
+                    items.push(i);
+                  }
+
+                  // Add ellipsis and last page
+                  if (current < totalPages - 2) {
+                    items.push('...');
+                  }
+
+                  items.push(totalPages);
+                }
+
+                return items.map((item, index) => {
+                  if (item === '...') {
+                    return (
+                      <PaginationItem key={`ellipsis-${index}`}>
+                        <PaginationEllipsis />
+                      </PaginationItem>
+                    );
+                  }
+
+                  const pageNum = item as number;
+                  return (
+                    <PaginationItem key={pageNum}>
+                      <PaginationLink
+                        onClick={() => setPage(pageNum - 1)}
+                        isActive={page === pageNum - 1}
+                      >
+                        {pageNum}
+                      </PaginationLink>
+                    </PaginationItem>
+                  );
+                });
+              })()}
+
               <PaginationItem>
                 <PaginationNext
                   onClick={() => setPage(prev => Math.min(data.totalPages - 1, prev + 1))}
@@ -355,49 +403,53 @@ export function SpaceMarinesTable({ pageSize = 10 }: SpaceMarinesTableProps) {
       </div>
 
       {/* Edit Dialog */}
-      {editingMarine && (
-        <EditSpaceMarineDialog
-          marine={editingMarine}
-          open={!!editingMarine}
-          onOpenChange={handleDialogClose}
-        />
-      )}
+      {
+        editingMarine && (
+          <EditSpaceMarineDialog
+            marine={editingMarine}
+            open={!!editingMarine}
+            onOpenChange={handleDialogClose}
+          />
+        )
+      }
 
       {/* Delete Confirmation Dialog */}
-      {marineToDelete && (
-        <AlertDialog
-          open={!!marineToDelete}
-          onOpenChange={(open) => !open && setMarineToDelete(null)}
-        >
-          <AlertDialogContent>
-            <AlertDialogHeader>
-              <AlertDialogTitle>Confirm Deletion</AlertDialogTitle>
-              <AlertDialogDescription>
-                Are you sure you want to delete{" "}
-                <span className="font-medium">{marineToDelete.name}</span>?
-                This action cannot be undone.
-              </AlertDialogDescription>
-            </AlertDialogHeader>
-            <AlertDialogFooter>
-              <AlertDialogCancel>Cancel</AlertDialogCancel>
-              <AlertDialogAction
-                onClick={confirmDelete}
-                disabled={deleteMutation.isPending}
-                className="bg-destructive hover:bg-destructive/90 focus:ring-destructive"
-              >
-                {deleteMutation.isPending ? (
-                  <>
-                    <Loader2 className="mr-2 w-4 h-4 animate-spin" />
-                    Deleting...
-                  </>
-                ) : (
-                  "Delete"
-                )}
-              </AlertDialogAction>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialog>
-      )}
-    </div>
+      {
+        marineToDelete && (
+          <AlertDialog
+            open={!!marineToDelete}
+            onOpenChange={(open) => !open && setMarineToDelete(null)}
+          >
+            <AlertDialogContent>
+              <AlertDialogHeader>
+                <AlertDialogTitle>Confirm Deletion</AlertDialogTitle>
+                <AlertDialogDescription>
+                  Are you sure you want to delete{" "}
+                  <span className="font-medium">{marineToDelete.name}</span>?
+                  This action cannot be undone.
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+              <AlertDialogFooter>
+                <AlertDialogCancel>Cancel</AlertDialogCancel>
+                <AlertDialogAction
+                  onClick={confirmDelete}
+                  disabled={deleteMutation.isPending}
+                  className="bg-destructive hover:bg-destructive/90 focus:ring-destructive"
+                >
+                  {deleteMutation.isPending ? (
+                    <>
+                      <Loader2 className="mr-2 w-4 h-4 animate-spin" />
+                      Deleting...
+                    </>
+                  ) : (
+                    "Delete"
+                  )}
+                </AlertDialogAction>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
+        )
+      }
+    </div >
   );
 }
