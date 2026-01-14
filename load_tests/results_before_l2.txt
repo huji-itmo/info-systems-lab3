@@ -1,0 +1,21 @@
+CUSTOM
+cache_hit_rate..................: avg=0s       min=0s      med=0s       max=0s    p(90)=0s       p(95)=0s
+  { scenario:cache_hits }.......: avg=0s       min=0s      med=0s       max=0s    p(90)=0s       p(95)=0s
+  { scenario:mixed_workload }...: avg=0s       min=0s      med=0s       max=0s    p(90)=0s       p(95)=0s
+import_success_rate.............: 0.00%  0 out of 0
+
+HTTP
+http_req_duration...............: avg=147.46ms min=74.31ms med=104.27ms max=7.25s p(90)=145.41ms p(95)=182.73ms
+  { expected_response:true }....: avg=147.46ms min=74.31ms med=104.27ms max=7.25s p(90)=145.41ms p(95)=182.73ms
+http_req_failed.................: 0.00%  0 out of 3186
+http_reqs.......................: 3186   14.831589/s
+
+EXECUTION
+iteration_duration..............: avg=1.14s    min=77.62ms med=1.1s     max=6.3s  p(90)=2.11s    p(95)=2.12s
+iterations......................: 3185   14.826934/s
+vus.............................: 3      min=0         max=20
+vus_max.........................: 40     min=40        max=40
+
+NETWORK
+data_received...................: 673 kB 3.1 kB/s
+data_sent.......................: 8.5 MB 40 kB/s

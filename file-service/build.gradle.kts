@@ -47,8 +47,6 @@ dependencies {
     implementation("org.hibernate.orm:hibernate-jcache:7.2.0.Final")
     implementation("org.ehcache:ehcache")
 
-    implementation("org.infinispan:infinispan-core:15.2.6.Final")
-    implementation("org.infinispan:infinispan-commons:15.2.6.Final")
     implementation("net.bytebuddy:byte-buddy:1.18.2")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.20.1")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.1")
