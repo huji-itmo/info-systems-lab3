@@ -6,6 +6,7 @@ import jakarta.persistence.PersistenceContext
 import jakarta.transaction.Transactional
 import jakarta.validation.Valid
 import org.example.exceptions.NotFoundException
+import org.example.interceptor.MonitoredQuery
 import org.example.shared.model.Chapter
 import org.example.shared.model.dto.Page
 import kotlin.math.ceil
@@ -15,16 +16,24 @@ open class ChapterService {
     @PersistenceContext(unitName = "my-pu")
     private lateinit var em: EntityManager
 
+    @MonitoredQuery
     open fun findAll(
         page: Int,
         size: Int,
     ): Page<Chapter> {
-        val total = em.createQuery("SELECT COUNT(c) FROM Chapter c", Long::class.java).singleResult
+        val total = em.createQuery("SELECT COUNT(c) FROM Chapter c", Long::class.java)
+            .setHint("eclipselink.query-results-cache", true)
+            .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
+            .singleResult
+
         val content =
             em
                 .createQuery("SELECT c FROM Chapter c", Chapter::class.java)
                 .setFirstResult(page * size)
                 .setMaxResults(size)
+                .setHint("eclipselink.query-results-cache", true)
+                .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
+                .setHint("eclipselink.query-results-cache.including-parameter-values", true)
                 .resultList
 
         return Page(
@@ -36,7 +45,17 @@ open class ChapterService {
         )
     }
 
-    open fun findById(id: Long): Chapter = em.find(Chapter::class.java, id) ?: throw NotFoundException("Chapter not found with id: $id")
+    @MonitoredQuery
+    open fun findById(id: Long): Chapter =
+        em.find(
+            Chapter::class.java,
+            id,
+            mapOf(
+                "eclipselink.cache-usage" to "CheckCacheByPrimaryKey",
+                "eclipselink.refresh" to "false", // Don't refresh from DB if in cache
+                "eclipselink.read-only" to "true" // Optimize for read-only access
+            )
+        ) ?: throw NotFoundException("Chapter not found with id: $id")
 
     @Transactional
     open fun create(

@@ -1,7 +1,7 @@
 server {
     listen 80;
     server_name ${DOMAIN}; # Replace with your domain/IP
-
+    access_log off;
     location /api/space-marines/import {
         proxy_pass http://spring:8080/api/space-marines/import;
     }

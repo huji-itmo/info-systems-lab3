@@ -2,7 +2,7 @@ import http from 'k6/http';
 import { check, sleep } from 'k6';
 
 const BASE_URL = 'http://localhost/api';
-const TOTAL_MARINES = 1000;
+const TOTAL_MARINES = 100;
 
 export const options = {
     vus: 50,

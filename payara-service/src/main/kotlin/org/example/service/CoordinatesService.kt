@@ -6,6 +6,8 @@ import jakarta.persistence.PersistenceContext
 import jakarta.transaction.Transactional
 import jakarta.validation.Valid
 import org.example.exceptions.NotFoundException
+import org.example.interceptor.MonitoredQuery
+import org.example.shared.model.Chapter
 import org.example.shared.model.Coordinates
 import org.example.shared.model.dto.Page
 import kotlin.math.ceil
@@ -15,16 +17,24 @@ open class CoordinatesService {
     @PersistenceContext(unitName = "my-pu")
     private lateinit var em: EntityManager
 
+    @MonitoredQuery
     open fun findAll(
         page: Int,
         size: Int,
     ): Page<Coordinates> {
-        val total = em.createQuery("SELECT COUNT(c) FROM Coordinates c", Long::class.java).singleResult
+        val total = em.createQuery("SELECT COUNT(c) FROM Coordinates c", Long::class.java)
+            .setHint("eclipselink.query-results-cache", true)
+            .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
+            .singleResult
+
         val content =
             em
                 .createQuery("SELECT c FROM Coordinates c", Coordinates::class.java)
                 .setFirstResult(page * size)
                 .setMaxResults(size)
+                .setHint("eclipselink.query-results-cache", true)
+                .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
+                .setHint("eclipselink.query-results-cache.including-parameter-values", true)
                 .resultList
 
         return Page(
@@ -36,8 +46,17 @@ open class CoordinatesService {
         )
     }
 
-    fun findById(id: Long): Coordinates =
-        em.find(Coordinates::class.java, id) ?: throw NotFoundException("Coordinates not found with id: $id")
+    @MonitoredQuery
+    open fun findById(id: Long): Coordinates =
+        em.find(
+            Coordinates::class.java,
+            id,
+            mapOf(
+                "eclipselink.cache-usage" to "CheckCacheByPrimaryKey",
+                "eclipselink.refresh" to "false",
+                "eclipselink.read-only" to "true"
+            )
+        ) ?: throw NotFoundException("Coordinates not found with id: $id")
 
     @Transactional
     open fun create(

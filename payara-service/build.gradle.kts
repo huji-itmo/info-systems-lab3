@@ -45,6 +45,8 @@ dependencies {
     implementation("org.glassfish.jersey.media:jersey-media-json-jackson:3.1.0")
     implementation("org.glassfish.jersey.media:jersey-media-multipart:4.0.0")
 
+    implementation("org.slf4j:slf4j-jdk14:2.0.16")
+
     implementation(project(":library-shared"))
 }
 

@@ -7,6 +7,7 @@ import jakarta.persistence.PersistenceContext
 import jakarta.transaction.Transactional
 import jakarta.validation.Valid
 import org.example.exceptions.NotFoundException
+import org.example.interceptor.MonitoredQuery
 import org.example.shared.model.AstartesCategory
 import org.example.shared.model.Chapter
 import org.example.shared.model.Coordinates
@@ -33,16 +34,24 @@ open class SpaceMarineService {
         private val logger = Logger.getLogger(SpaceMarineService::class.java.name)
     }
 
+    @MonitoredQuery
     open fun findAll(
         page: Int,
         size: Int,
     ): Page<SpaceMarine> {
-        val total = em.createQuery("SELECT COUNT(s) FROM SpaceMarine s", Long::class.java).singleResult
+        val total = em.createQuery("SELECT COUNT(s) FROM SpaceMarine s", Long::class.java)
+            .setHint("eclipselink.query-results-cache", true)
+            .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
+            .singleResult
+
         val content =
             em
                 .createQuery("SELECT s FROM SpaceMarine s", SpaceMarine::class.java)
                 .setFirstResult(page * size)
                 .setMaxResults(size)
+                .setHint("eclipselink.query-results-cache", true)
+                .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
+                .setHint("eclipselink.query-results-cache.including-parameter-values", true)
                 .resultList
 
         return Page(
@@ -54,52 +63,86 @@ open class SpaceMarineService {
         )
     }
 
+    @MonitoredQuery
     open fun findById(id: Int): SpaceMarine =
-        em.find(SpaceMarine::class.java, id) ?: throw NotFoundException("SpaceMarine not found with id: $id")
-
-    @Transactional
-    open fun create(
-        @Valid spaceMarine: SpaceMarineCreateRequest,
-    ): SpaceMarine {
-        // Convert string values to enums safely
-        val category =
-            spaceMarine.category?.let {
-                try {
-                    if (it == "null") {
-                        return@let null
-                    }
-                    AstartesCategory.valueOf(it.uppercase())
-                } catch (e: IllegalArgumentException) {
-                    throw IllegalArgumentException(
-                        "Invalid category value: $it. " +
-                            "Valid values are: ${AstartesCategory.entries.joinToString()}",
-                    )
-                }
-            }
-
-        val weaponType =
-            try {
-                Weapon.valueOf(spaceMarine.weaponType.uppercase())
-            } catch (e: IllegalArgumentException) {
-                throw IllegalArgumentException(
-                    "Invalid weapon type: ${spaceMarine.weaponType}. " +
-                        "Valid values are: ${Weapon.entries.joinToString()}",
-                )
-            }
-
-        val entity =
-            SpaceMarine(
-                id = 0,
-                name = spaceMarine.name,
-                coordinatesId = spaceMarine.coordinatesId,
-                chapterId = spaceMarine.chapterId,
-                health = spaceMarine.health,
-                loyal = spaceMarine.loyal,
-                category = category,
-                weaponType = weaponType,
+        em.find(
+            SpaceMarine::class.java,
+            id,
+            mapOf(
+                "eclipselink.cache-usage" to "CheckCacheByPrimaryKey",
+                "eclipselink.refresh" to "false",
+                "eclipselink.read-only" to "true"
             )
-        em.persist(entity)
-        return entity
+        ) ?: throw NotFoundException("SpaceMarine not found with id: $id")
+
+    @MonitoredQuery
+    open fun findByWeaponTypes(
+        weaponTypes: List<Weapon>,
+        page: Int,
+        size: Int,
+    ): Page<SpaceMarine> {
+        logger.info("Filtering marines by weapons: $weaponTypes (page=$page, size=$size)")
+
+        if (weaponTypes.isEmpty()) {
+            return Page(emptyList(), page, size, 0, 0)
+        }
+
+        // Query for total count with caching
+        val countQuery =
+            em
+                .createQuery(
+                    "SELECT COUNT(s) FROM SpaceMarine s WHERE s.weaponType IN :weapons",
+                    Long::class.java,
+                )
+                .setParameter("weapons", weaponTypes)
+                .setHint("eclipselink.query-results-cache", true)
+                .setHint("eclipselink.query-results-cache.expiry", "1800000") // 30 minutes
+                .setHint("eclipselink.query-results-cache.including-parameter-values", true)
+
+        val total = countQuery.singleResult
+
+        // Query for content with caching and ordering
+        val contentQuery =
+            em.createQuery(
+                "SELECT s FROM SpaceMarine s WHERE s.weaponType IN :weapons ORDER BY s.name",
+                SpaceMarine::class.java,
+            )
+                .setParameter("weapons", weaponTypes)
+                .setFirstResult(page * size)
+                .setMaxResults(size)
+                .setHint("eclipselink.query-results-cache", true)
+                .setHint("eclipselink.query-results-cache.expiry", "1800000") // 30 minutes
+                .setHint("eclipselink.query-results-cache.including-parameter-values", true)
+
+        val content = contentQuery.resultList
+
+        return Page(
+            content = content,
+            page = page,
+            size = size,
+            totalElements = total,
+            totalPages = ceil(total.toDouble() / size).toInt(),
+        )
+    }
+
+    @MonitoredQuery
+    open fun sumHealth(): Long {
+        logger.info("Calculating sum of health values")
+        return em
+            .createQuery("SELECT COALESCE(SUM(s.health), 0) FROM SpaceMarine s", Long::class.java)
+            .setHint("eclipselink.query-results-cache", true)
+            .setHint("eclipselink.query-results-cache.expiry", "600000") // 10 minutes
+            .singleResult
+    }
+
+    @MonitoredQuery
+    open fun averageHealth(): Double {
+        logger.info("Calculating average health value")
+        val avg = em.createQuery("SELECT AVG(s.health) FROM SpaceMarine s", Double::class.java)
+            .setHint("eclipselink.query-results-cache", true)
+            .setHint("eclipselink.query-results-cache.expiry", "600000") // 10 minutes
+            .singleResult
+        return avg ?: 0.0
     }
 
     @Transactional
@@ -175,58 +218,49 @@ open class SpaceMarineService {
         return em.merge(marine)
     }
 
-    open fun findByWeaponTypes(
-        weaponTypes: List<Weapon>,
-        page: Int,
-        size: Int,
-    ): Page<SpaceMarine> {
-        logger.info("Filtering marines by weapons: $weaponTypes (page=$page, size=$size)")
+    @Transactional
+    open fun create(
+        @Valid spaceMarine: SpaceMarineCreateRequest,
+    ): SpaceMarine {
+        // Convert string values to enums safely
+        val category =
+            spaceMarine.category?.let {
+                try {
+                    if (it == "null") {
+                        return@let null
+                    }
+                    AstartesCategory.valueOf(it.uppercase())
+                } catch (e: IllegalArgumentException) {
+                    throw IllegalArgumentException(
+                        "Invalid category value: $it. " +
+                                "Valid values are: ${AstartesCategory.entries.joinToString()}",
+                    )
+                }
+            }
 
-        if (weaponTypes.isEmpty()) {
-            return Page(emptyList(), page, size, 0, 0)
-        }
+        val weaponType =
+            try {
+                Weapon.valueOf(spaceMarine.weaponType.uppercase())
+            } catch (e: IllegalArgumentException) {
+                throw IllegalArgumentException(
+                    "Invalid weapon type: ${spaceMarine.weaponType}. " +
+                            "Valid values are: ${Weapon.entries.joinToString()}",
+                )
+            }
 
-        // Запрос для получения общего количества
-        val countQuery =
-            em
-                .createQuery(
-                    "SELECT COUNT(s) FROM SpaceMarine s WHERE s.weaponType IN :weapons",
-                    Long::class.java,
-                ).setParameter("weapons", weaponTypes)
-
-        val total = countQuery.singleResult
-
-        // Запрос для получения данных с пагинацией
-        val contentQuery =
-            em.createQuery(
-                "SELECT s FROM SpaceMarine s WHERE s.weaponType IN :weapons ORDER BY s.name",
-                SpaceMarine::class.java,
+        val entity =
+            SpaceMarine(
+                id = 0,
+                name = spaceMarine.name,
+                coordinatesId = spaceMarine.coordinatesId,
+                chapterId = spaceMarine.chapterId,
+                health = spaceMarine.health,
+                loyal = spaceMarine.loyal,
+                category = category,
+                weaponType = weaponType,
             )
-        contentQuery.setParameter("weapons", weaponTypes)
-        contentQuery.setFirstResult(page * size)
-        contentQuery.setMaxResults(size)
-
-        val content = contentQuery.resultList
-
-        return Page(
-            content = content,
-            page = page,
-            size = size,
-            totalElements = total,
-            totalPages = ceil(total.toDouble() / size).toInt(),
-        )
+        em.persist(entity)
+        return entity
     }
 
-    open fun sumHealth(): Long {
-        logger.info("Calculating sum of health values")
-        return em
-            .createQuery("SELECT COALESCE(SUM(s.health), 0) FROM SpaceMarine s", Long::class.java)
-            .singleResult
-    }
-
-    open fun averageHealth(): Double {
-        logger.info("Calculating average health value")
-        val avg = em.createQuery("SELECT AVG(s.health) FROM SpaceMarine s", Double::class.java).singleResult
-        return avg ?: 0.0
-    }
 }

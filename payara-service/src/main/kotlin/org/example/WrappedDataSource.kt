@@ -39,7 +39,7 @@ open class WrappedDataSource : DataSource {
 
             poolName = "studs-pool"  // Match the pool name from glassfish-resources.xml
             minimumIdle = 5
-            maximumPoolSize = 20
+            maximumPoolSize = 50
             connectionTimeout = 30_000 // 30 seconds
             idleTimeout = 600_000 // 10 minutes
             maxLifetime = 1800_000 // 30 minutes
