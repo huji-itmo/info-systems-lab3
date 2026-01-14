@@ -1,10 +1,22 @@
 package com.example.fileService.model
 
-import jakarta.persistence.*
+import jakarta.persistence.Cacheable
+import jakarta.persistence.Column
+import jakarta.persistence.Entity
+import jakarta.persistence.EnumType
+import jakarta.persistence.Enumerated
+import jakarta.persistence.GeneratedValue
+import jakarta.persistence.GenerationType
+import jakarta.persistence.Id
+import jakarta.persistence.Table
+import org.hibernate.annotations.Cache
+import org.hibernate.annotations.CacheConcurrencyStrategy
 import java.time.LocalDateTime
 
 @Entity
 @Table(name = "import_history")
+@Cacheable
+@Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
 data class ImportHistory (
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

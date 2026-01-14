@@ -13,7 +13,22 @@
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
 
         <properties>
-            <!-- EclipseLink -->
+            <!-- Enable shared cache globally -->
+            <property name="eclipselink.cache.shared.default" value="true"/>
+
+            <!-- Default cache type for ALL @Cacheable entities -->
+            <property name="eclipselink.cache.type.default" value="FULL"/>
+
+            <!-- Default cache size (entities) -->
+            <property name="eclipselink.cache.size.default" value="1000"/>
+
+            <!-- Default expiration (milliseconds) -->
+            <property name="eclipselink.cache.expiry.default" value="3600000"/>
+
+            <!-- Crucial for Payara: Disable EclipseLink weaving warnings -->
+            <property name="eclipselink.weaving" value="static"/>
+
+            <!-- <property name="eclipselink.cache.shared.default" value="true" /> -->
             <property name="eclipselink.logging.level" value="INFO" />
             <property name="eclipselink.ddl-generation" value="create-or-extend-tables" />
             <property name="eclipselink.ddl-generation.output-mode" value="database" />

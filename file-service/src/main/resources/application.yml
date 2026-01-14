@@ -5,7 +5,9 @@ spring:
     url: jdbc:postgresql://pg:5432/studs
     username: ${POSTGRES_USER}
     password: ${POSTGRES_PASSWORD}
-
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
   jpa:
     database: postgresql
     hibernate:
@@ -15,14 +17,15 @@ spring:
       hibernate:
         generate_statistics: true
         cache:
+          default_cache_concurrency_strategy: READ_WRITE
           use_second_level_cache: true
           use_query_cache: true
           sharedCache:
-            mode: ENABLE_SELECTIVE
+            mode: ALL
           region:
-            factory_class: infinispan
-          infinispan:
-            cfg: org/infinispan/hibernate/cache/commons/builder/infinispan-configs-local.xml
+            factory_class: org.hibernate.cache.jcache.JCacheRegionFactory
+
 logging:
   level:
     org.springframework: INFO
+    org.hibernate.cache: DEBUG

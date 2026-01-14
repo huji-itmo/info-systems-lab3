@@ -44,7 +44,8 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 
-    implementation("org.infinispan:infinispan-hibernate-cache-v66:16.0.3")
+    implementation("org.hibernate.orm:hibernate-jcache:7.2.0.Final")
+    implementation("org.ehcache:ehcache")
 
     implementation("org.infinispan:infinispan-core:15.2.6.Final")
     implementation("org.infinispan:infinispan-commons:15.2.6.Final")

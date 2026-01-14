@@ -9,13 +9,13 @@ import org.springframework.transaction.annotation.Propagation
 import org.springframework.transaction.annotation.Transactional
 
 @Service
-class ImportHistoryService(
+open class ImportHistoryService(
     private val historyRepository: ImportHistoryRepository
 ) {
     private val logger: Logger = LoggerFactory.getLogger(ImportHistoryService::class.java)
 
     @Transactional(propagation = Propagation.REQUIRES_NEW)
-    fun saveHistory(history: ImportHistory) {
+    open fun saveHistory(history: ImportHistory) {
         try {
             historyRepository.save(history)
         } catch (e: Exception) {
