@@ -40,7 +40,7 @@ open class SpaceMarineService {
         size: Int,
     ): Page<SpaceMarine> {
         val total = em.createQuery("SELECT COUNT(s) FROM SpaceMarine s", Long::class.java)
-            .setHint("eclipselink.query-results-cache", true)
+            .setHint("eclipselink.query-results-cache", "true")
             .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
             .singleResult
 
@@ -49,9 +49,9 @@ open class SpaceMarineService {
                 .createQuery("SELECT s FROM SpaceMarine s", SpaceMarine::class.java)
                 .setFirstResult(page * size)
                 .setMaxResults(size)
-                .setHint("eclipselink.query-results-cache", true)
+                .setHint("eclipselink.query-results-cache", "true")
                 .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
-                .setHint("eclipselink.query-results-cache.including-parameter-values", true)
+                .setHint("eclipselink.query-results-cache.including-parameter-values", "true")
                 .resultList
 
         return Page(

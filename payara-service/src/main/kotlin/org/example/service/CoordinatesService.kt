@@ -23,7 +23,7 @@ open class CoordinatesService {
         size: Int,
     ): Page<Coordinates> {
         val total = em.createQuery("SELECT COUNT(c) FROM Coordinates c", Long::class.java)
-            .setHint("eclipselink.query-results-cache", true)
+            .setHint("eclipselink.query-results-cache", "true")
             .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
             .singleResult
 
@@ -32,9 +32,9 @@ open class CoordinatesService {
                 .createQuery("SELECT c FROM Coordinates c", Coordinates::class.java)
                 .setFirstResult(page * size)
                 .setMaxResults(size)
-                .setHint("eclipselink.query-results-cache", true)
+                .setHint("eclipselink.query-results-cache", "true")
                 .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
-                .setHint("eclipselink.query-results-cache.including-parameter-values", true)
+                .setHint("eclipselink.query-results-cache.including-parameter-values", "true")
                 .resultList
 
         return Page(

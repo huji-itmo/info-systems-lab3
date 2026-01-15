@@ -22,7 +22,7 @@ open class ChapterService {
         size: Int,
     ): Page<Chapter> {
         val total = em.createQuery("SELECT COUNT(c) FROM Chapter c", Long::class.java)
-            .setHint("eclipselink.query-results-cache", true)
+            .setHint("eclipselink.query-results-cache", "true")
             .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
             .singleResult
 
@@ -31,9 +31,9 @@ open class ChapterService {
                 .createQuery("SELECT c FROM Chapter c", Chapter::class.java)
                 .setFirstResult(page * size)
                 .setMaxResults(size)
-                .setHint("eclipselink.query-results-cache", true)
+                .setHint("eclipselink.query-results-cache", "true")
                 .setHint("eclipselink.query-results-cache.expiry", "3600000") // 1 hour
-                .setHint("eclipselink.query-results-cache.including-parameter-values", true)
+                .setHint("eclipselink.query-results-cache.including-parameter-values", "true")
                 .resultList
 
         return Page(

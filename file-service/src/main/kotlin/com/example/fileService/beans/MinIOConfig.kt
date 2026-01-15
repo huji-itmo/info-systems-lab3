@@ -6,11 +6,11 @@ import org.springframework.context.annotation.Configuration
 import org.springframework.web.context.annotation.ApplicationScope
 
 @Configuration
-class MinIOConfig {
+open class MinIOConfig {
 
     @Bean
     @ApplicationScope
-    fun minioClient(): MinioClient {
+    open fun minioClient(): MinioClient {
         val minioUrl = System.getenv("MINIO_URL")
             ?: throw IllegalStateException("MINIO_URL environment variable is required")
 

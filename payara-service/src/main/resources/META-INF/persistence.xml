@@ -13,6 +13,10 @@
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
 
         <properties>
+            <!-- Prevent EM holding connections between transactions -->
+            <property name="eclipselink.jdbc.cache-statements" value="false"/>
+            <property name="eclipselink.jdbc.batch-writing" value="JDBC"/>
+
             <!-- Enable shared cache globally -->
             <property name="eclipselink.cache.shared.default" value="true"/>
 
