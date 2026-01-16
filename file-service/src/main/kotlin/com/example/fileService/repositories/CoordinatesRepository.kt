@@ -21,4 +21,9 @@ interface CoordinatesRepository : CrudRepository<Coordinates, Long> {
         ],
     )
     override fun findById(id: Long): Optional<Coordinates>
+
+    fun existsByXAndY(
+        x: Float,
+        y: Float?,
+    ): Boolean
 }

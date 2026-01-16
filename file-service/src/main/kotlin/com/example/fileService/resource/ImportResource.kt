@@ -9,6 +9,8 @@ import com.example.fileService.model.SpaceMarineImportRequest
 import com.example.fileService.repositories.ChapterRepository
 import com.example.fileService.repositories.CoordinatesRepository
 import com.example.fileService.repositories.SpaceMarineRepository
+import com.example.fileService.service.TransactionStatus
+import com.example.fileService.service.TwoPhaseCommitService
 import com.fasterxml.jackson.core.JsonProcessingException
 import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.ObjectMapper
@@ -42,6 +44,7 @@ class ImportResource(
     private val chapterRepository: ChapterRepository,
     private val coordinatesRepository: CoordinatesRepository,
     private val spaceMarineRepository: SpaceMarineRepository,
+    private val twoPhaseCommitService: TwoPhaseCommitService,
 ) {
     companion object {
         private val logger: Logger = LoggerFactory.getLogger(ImportResource::class.java)
@@ -72,46 +75,62 @@ class ImportResource(
             logger.info("Parsed $totalRecords Space Marine records from file")
 
             validateImportRequests(importRequests)
-            val results = processRequests(importRequests)
 
-            successfulCount = results.count { it is ImportResult.Success }
-            val failedCount = results.count { it is ImportResult.Failure }
-            historyStatus =
-                if (failedCount == 0) {
-                    ImportHistory.ImportStatus.SUCCESS
-                } else {
-                    ImportHistory.ImportStatus.PARTIAL_SUCCESS
-                }
+            // Two-phase commit implementation
+            val transactionContext = twoPhaseCommitService.preparePhase(importRequests)
+            logger.info("Transaction ${transactionContext.transactionId} prepared for ${transactionContext.preparedData.size} records")
 
-            val summary =
-                ImportSummary(
-                    total = totalRecords,
-                    successful = successfulCount,
-                    failed = results.filterIsInstance<ImportResult.Failure>(),
+            try {
+                twoPhaseCommitService.commitPhase(transactionContext)
+                logger.info("Transaction ${transactionContext.transactionId} committed successfully")
+
+                successfulCount = totalRecords
+                historyStatus = ImportHistory.ImportStatus.SUCCESS
+
+                val summary =
+                    ImportSummary(
+                        total = totalRecords,
+                        successful = successfulCount,
+                        failed = emptyList(),
+                    )
+
+                saveImportHistory(
+                    fileName = file.originalFilename ?: "unknown",
+                    startTime = startTime,
+                    minioObjectName = uploadedObjectName,
+                    contentType = contentType,
+                    status = historyStatus,
+                    totalRecords = totalRecords,
+                    successfulCount = successfulCount,
+                    failedCount = 0,
                 )
 
-            saveImportHistory(
-                fileName = file.originalFilename ?: "unknown",
-                startTime = startTime,
-                minioObjectName = uploadedObjectName,
-                contentType = contentType,
-                status = historyStatus,
-                totalRecords = totalRecords,
-                successfulCount = successfulCount,
-                failedCount = failedCount,
-            )
-
-            return ResponseEntity.status(HttpStatus.CREATED).body(summary)
+                return ResponseEntity.status(HttpStatus.CREATED).body(summary)
+            } catch (e: Exception) {
+                logger.error("Transaction ${transactionContext.transactionId} failed during commit", e)
+                twoPhaseCommitService.abortTransaction(transactionContext)
+                throw e
+            }
         } catch (e: Exception) {
             errorMessage = e.message ?: "Unknown error"
             logger.error("Import failed for file: ${file.originalFilename}", e)
 
+            // Determine status based on exception type
+            val finalStatus =
+                when {
+                    e is IllegalStateException && e.message?.contains("Prepare phase failed") == true ->
+                        ImportHistory.ImportStatus.TRANSACTION_ABORTED
+                    e is IllegalStateException && e.message?.contains("Commit phase failed") == true ->
+                        ImportHistory.ImportStatus.TRANSACTION_ABORTED
+                    else -> ImportHistory.ImportStatus.FAILURE
+                }
+
             saveImportHistory(
                 fileName = file.originalFilename ?: "unknown",
                 startTime = startTime,
                 minioObjectName = uploadedObjectName,
                 contentType = contentType,
-                status = historyStatus,
+                status = finalStatus,
                 totalRecords = totalRecords,
                 successfulCount = successfulCount,
                 failedCount = if (totalRecords != null) totalRecords - successfulCount else 0,
@@ -192,18 +211,6 @@ class ImportResource(
         importHistoryService.saveHistory(history)
     }
 
-    // Extracted request processing for better readability
-    private fun processRequests(requests: List<SpaceMarineImportRequest>): List<ImportResult> =
-        requests.map { request ->
-            try {
-                processAndSaveRequest(request)
-                ImportResult.Success(request)
-            } catch (e: Exception) {
-                logger.warn("Failed to import ${request.name}: ${e.message}")
-                ImportResult.Failure(request.name, e.message ?: "Unknown error")
-            }
-        }
-
     private fun validateImportRequests(requests: List<SpaceMarineImportRequest>) {
         if (requests.isEmpty()) {
             throw IllegalArgumentException("File contains no records to import")
@@ -276,66 +283,5 @@ class ImportResource(
         if (errors.isNotEmpty()) {
             throw ValidationException("Validation failed:\n${errors.joinToString("\n")}")
         }
-    }
-
-    @Transactional
-    private fun processAndSaveRequest(request: SpaceMarineImportRequest) {
-        val chapterId = createOrGetChapter(request.chapter, request.coordinatesId)
-
-        val coordinatesId = createOrGetCoordinates(request.coordinates, request.coordinatesId)
-
-        val spaceMarine =
-            SpaceMarine(
-                name = request.name,
-                health = request.health,
-                category = request.category,
-                chapterId = chapterId,
-                coordinatesId = coordinatesId,
-                weaponType = request.weaponType,
-                loyal = request.loyal,
-            )
-        spaceMarineRepository.save(spaceMarine)
-    }
-
-    private fun createOrGetChapter(
-        chapterDto: ChapterEmbedded?,
-        chapterId: Long?,
-    ): Long {
-        if (chapterId != null && chapterRepository.findById(chapterId).isPresent) {
-            return chapterId
-        }
-
-        if (chapterDto == null) {
-            throw IllegalStateException("Chapter and chapter ID null")
-        }
-
-        return chapterRepository
-            .save(
-                Chapter(
-                    name = chapterDto.name,
-                    marinesCount = chapterDto.marinesCount,
-                ),
-            ).id
-    }
-
-    private fun createOrGetCoordinates(
-        coordinatesDto: CoordinatesEmbedded?,
-        coordinatesId: Long?,
-    ): Long {
-        if (coordinatesId != null && coordinatesRepository.findById(coordinatesId).isPresent) {
-            return coordinatesId
-        }
-
-        if (coordinatesDto == null) {
-            throw IllegalStateException("Coordinates and CoordinateID null")
-        }
-
-        return coordinatesRepository
-            .save(
-                Coordinates(
-                    x = coordinatesDto.x,
-                    y = coordinatesDto.y,
-                ),
-            ).id
     }
 }

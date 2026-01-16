@@ -22,4 +22,6 @@ interface ChapterRepository : CrudRepository<Chapter, Long> {
         ],
     )
     override fun findById(id: Long): Optional<Chapter>
+
+    fun existsByNameIgnoreCase(name: String): Boolean
 }

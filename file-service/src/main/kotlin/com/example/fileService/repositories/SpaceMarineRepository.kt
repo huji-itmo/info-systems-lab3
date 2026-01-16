@@ -21,4 +21,6 @@ interface SpaceMarineRepository : CrudRepository<SpaceMarine, Long> {
         ],
     )
     override fun findById(id: Long): Optional<SpaceMarine>
+
+    fun existsByNameIgnoreCase(name: String): Boolean
 }

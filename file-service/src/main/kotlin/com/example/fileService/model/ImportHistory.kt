@@ -17,43 +17,34 @@ import java.time.LocalDateTime
 @Table(name = "import_history")
 @Cacheable
 @Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
-data class ImportHistory (
+data class ImportHistory(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long? = null,
-
     @Column(nullable = false)
     val fileName: String = "",
-
     @Column(nullable = true)
     val minioObjectName: String? = null,
-
     @Column(nullable = true)
     val totalRecords: Int? = null,
-
     @Column(nullable = false)
     val successfulCount: Int = 0,
-
     @Column(nullable = false)
     val failedCount: Int = 0,
-
     @Column(nullable = false)
     val timestamp: LocalDateTime = LocalDateTime.now(),
-
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     val status: ImportStatus = ImportStatus.FAILURE,
-
     @Column(columnDefinition = "TEXT")
     val errorMessage: String? = null,
-
     @Column(nullable = false)
-    val contentType: String? = ""
-
+    val contentType: String? = "",
 ) {
     enum class ImportStatus {
-        SUCCESS,          // All records imported
-        PARTIAL_SUCCESS,  // Some records failed
-        FAILURE           // File-level failure (parsing/validation)
+        SUCCESS, // All records imported
+        PARTIAL_SUCCESS, // Some records failed
+        FAILURE, // File-level failure (parsing/validation)
+        TRANSACTION_ABORTED, // Two-phase commit transaction was aborted
     }
 }
