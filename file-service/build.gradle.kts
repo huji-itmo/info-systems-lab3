@@ -4,9 +4,9 @@ plugins {
     kotlin("plugin.noarg") version "2.2.20"
     kotlin("plugin.jpa") version "2.2.20"
 
-	kotlin("plugin.spring") version "2.2.21"
-	id("org.springframework.boot") version "4.0.0"
-	id("io.spring.dependency-management") version "1.1.7"
+    kotlin("plugin.spring") version "2.2.21"
+    id("org.springframework.boot") version "4.0.0"
+    id("io.spring.dependency-management") version "1.1.7"
 
     id("com.google.cloud.tools.jib") version "3.5.2"
 }
@@ -16,33 +16,37 @@ description = "Demo project for Spring Boot"
 
 jib {
     to {
-        image="info-systems-lab3/file-service:jib-dev"
+        image = "info-systems-lab3/file-service:jib-dev"
     }
 }
 
 java {
-	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)
-	}
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
 }
 
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 
 dependencies {
-	implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
 
     implementation("org.springframework.kafka:spring-kafka")
 
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-validation")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-	runtimeOnly("org.postgresql:postgresql")
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
+    implementation("org.springframework:spring-aop")
+    implementation("org.aspectj:aspectjweaver")
+    implementation("io.micrometer:micrometer-core")
+    runtimeOnly("org.postgresql:postgresql")
     implementation("io.minio:minio:8.6.0")
 
-	testImplementation("org.springframework.boot:spring-boot-starter-test")
-	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 
     implementation("org.hibernate.orm:hibernate-jcache:7.2.0.Final")
     implementation("org.ehcache:ehcache")
@@ -57,19 +61,17 @@ dependencies {
     implementation(project(":library-shared"))
 
     testImplementation("com.h2database:h2")
-	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-
-
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
 kotlin {
-	compilerOptions {
-		freeCompilerArgs.addAll("-Xjsr305=strict", "-Xannotation-default-target=param-property")
-	}
+    compilerOptions {
+        freeCompilerArgs.addAll("-Xjsr305=strict", "-Xannotation-default-target=param-property")
+    }
 }
 
 tasks.withType<Test> {
-	useJUnitPlatform()
+    useJUnitPlatform()
 }
 
 tasks.jar {

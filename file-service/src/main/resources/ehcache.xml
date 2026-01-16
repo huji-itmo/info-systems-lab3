@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.ehcache.org/v3"
+    xsi:schemaLocation="
+        http://www.ehcache.org/v3 http://www.ehcache.org/schema/ehcache-core-3.0.xsd">
+
+    <!-- Default cache template -->
+    <cache-template name="default">
+        <expiry>
+            <ttl unit="minutes">60</ttl>
+        </expiry>
+        <heap unit="entries">1000</heap>
+    </cache-template>
+
+    <!-- SpaceMarine entity cache -->
+    <cache alias="com.example.fileService.entities.SpaceMarine" uses-template="default">
+        <heap unit="entries">2000</heap>
+    </cache>
+
+    <!-- Chapter entity cache -->
+    <cache alias="com.example.fileService.entities.Chapter" uses-template="default">
+        <heap unit="entries">1000</heap>
+    </cache>
+
+    <!-- Coordinates entity cache -->
+    <cache alias="com.example.fileService.entities.Coordinates" uses-template="default">
+        <heap unit="entries">2000</heap>
+    </cache>
+
+    <!-- ImportHistory entity cache -->
+    <cache alias="com.example.fileService.entities.ImportHistory" uses-template="default">
+        <heap unit="entries">100</heap>
+    </cache>
+
+    <!-- Query cache -->
+    <cache alias="org.hibernate.cache.internal.StandardQueryCache" uses-template="default">
+        <heap unit="entries">100</heap>
+    </cache>
+
+    <!-- Update timestamps cache -->
+    <cache alias="org.hibernate.cache.spi.UpdateTimestampsCache" uses-template="default">
+        <heap unit="entries">500</heap>
+    </cache>
+
+</config>

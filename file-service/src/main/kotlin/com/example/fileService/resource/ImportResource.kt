@@ -2,11 +2,7 @@ package com.example.fileService.resource
 
 import com.example.fileService.beans.ImportHistoryService
 import com.example.fileService.beans.MinIOBean
-import org.example.shared.model.Coordinates
 import com.example.fileService.model.ImportHistory
-import org.example.shared.model.SpaceMarine
-import org.example.shared.model.dto.ChapterEmbedded
-import org.example.shared.model.dto.CoordinatesEmbedded
 import com.example.fileService.model.ImportResult
 import com.example.fileService.model.ImportSummary
 import com.example.fileService.model.SpaceMarineImportRequest
@@ -22,6 +18,10 @@ import jakarta.transaction.Transactional
 import jakarta.validation.ValidationException
 import jakarta.validation.Validator
 import org.example.shared.model.Chapter
+import org.example.shared.model.Coordinates
+import org.example.shared.model.SpaceMarine
+import org.example.shared.model.dto.ChapterEmbedded
+import org.example.shared.model.dto.CoordinatesEmbedded
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.http.*
@@ -41,14 +41,16 @@ class ImportResource(
     private val importHistoryService: ImportHistoryService,
     private val chapterRepository: ChapterRepository,
     private val coordinatesRepository: CoordinatesRepository,
-    private val spaceMarineRepository: SpaceMarineRepository
+    private val spaceMarineRepository: SpaceMarineRepository,
 ) {
     companion object {
         private val logger: Logger = LoggerFactory.getLogger(ImportResource::class.java)
     }
 
     @PostMapping("/import")
-    fun importSpaceMarines(@RequestParam("file") file: MultipartFile): ResponseEntity<Any> {
+    fun importSpaceMarines(
+        @RequestParam("file") file: MultipartFile,
+    ): ResponseEntity<Any> {
         val startTime = LocalDateTime.now()
         var uploadedObjectName: String? = null
         var contentType: String? = null
@@ -74,14 +76,19 @@ class ImportResource(
 
             successfulCount = results.count { it is ImportResult.Success }
             val failedCount = results.count { it is ImportResult.Failure }
-            historyStatus = if (failedCount == 0) ImportHistory.ImportStatus.SUCCESS
-            else ImportHistory.ImportStatus.PARTIAL_SUCCESS
+            historyStatus =
+                if (failedCount == 0) {
+                    ImportHistory.ImportStatus.SUCCESS
+                } else {
+                    ImportHistory.ImportStatus.PARTIAL_SUCCESS
+                }
 
-            val summary = ImportSummary(
-                total = totalRecords,
-                successful = successfulCount,
-                failed = results.filterIsInstance<ImportResult.Failure>()
-            )
+            val summary =
+                ImportSummary(
+                    total = totalRecords,
+                    successful = successfulCount,
+                    failed = results.filterIsInstance<ImportResult.Failure>(),
+                )
 
             saveImportHistory(
                 fileName = file.originalFilename ?: "unknown",
@@ -91,11 +98,10 @@ class ImportResource(
                 status = historyStatus,
                 totalRecords = totalRecords,
                 successfulCount = successfulCount,
-                failedCount = failedCount
+                failedCount = failedCount,
             )
 
             return ResponseEntity.status(HttpStatus.CREATED).body(summary)
-
         } catch (e: Exception) {
             errorMessage = e.message ?: "Unknown error"
             logger.error("Import failed for file: ${file.originalFilename}", e)
@@ -109,29 +115,32 @@ class ImportResource(
                 totalRecords = totalRecords,
                 successfulCount = successfulCount,
                 failedCount = if (totalRecords != null) totalRecords - successfulCount else 0,
-                errorMessage = errorMessage
+                errorMessage = errorMessage,
             )
 
             return when (e) {
                 is IllegalArgumentException -> ResponseEntity.badRequest().body(mapOf("error" to errorMessage))
-                else -> ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                    .body(mapOf("error" to "Import failed: $errorMessage"))
+                else ->
+                    ResponseEntity
+                        .status(HttpStatus.INTERNAL_SERVER_ERROR)
+                        .body(mapOf("error" to "Import failed: $errorMessage"))
             }
         }
     }
 
-
-    private fun determineContentType(filename: String?): String {
-        return when {
+    private fun determineContentType(filename: String?): String =
+        when {
             filename.isNullOrEmpty() -> throw IllegalArgumentException("Filename cannot be empty")
             filename.endsWith(".json", ignoreCase = true) -> MediaType.APPLICATION_JSON_VALUE
             filename.endsWith(".xml", ignoreCase = true) -> MediaType.APPLICATION_XML_VALUE
             else -> throw IllegalArgumentException("Unsupported file type. Only JSON and XML files are accepted.")
         }
-    }
 
-    private fun parseFile(inputStream: InputStream, contentType: String): List<SpaceMarineImportRequest> {
-        return try {
+    private fun parseFile(
+        inputStream: InputStream,
+        contentType: String,
+    ): List<SpaceMarineImportRequest> =
+        try {
             when (contentType) {
                 MediaType.APPLICATION_JSON_VALUE -> {
                     val mapper = ObjectMapper().registerKotlinModule()
@@ -147,15 +156,15 @@ class ImportResource(
             }
         } catch (e: JsonProcessingException) {
             // Extract core error message without location details
-            val cleanMessage = e.message
-                ?.substringBefore(" (for ")
-                ?.trim()
-                ?: "Invalid file structure"
+            val cleanMessage =
+                e.message
+                    ?.substringBefore(" (for ")
+                    ?.trim()
+                    ?: "Invalid file structure"
             throw IllegalArgumentException(cleanMessage, e)
         } catch (e: Exception) {
             throw IllegalArgumentException("Failed to parse file content: ${e.message ?: "Unknown parsing error"}", e)
         }
-    }
 
     private fun saveImportHistory(
         fileName: String,
@@ -166,25 +175,26 @@ class ImportResource(
         totalRecords: Int?,
         successfulCount: Int,
         failedCount: Int,
-        errorMessage: String? = null
+        errorMessage: String? = null,
     ) {
-        val history = ImportHistory(
-            fileName = fileName,
-            minioObjectName = minioObjectName,
-            contentType = contentType,
-            totalRecords = totalRecords,
-            successfulCount = successfulCount,
-            failedCount = failedCount,
-            timestamp = startTime,
-            status = status,
-            errorMessage = errorMessage
-        )
+        val history =
+            ImportHistory(
+                fileName = fileName,
+                minioObjectName = minioObjectName,
+                contentType = contentType,
+                totalRecords = totalRecords,
+                successfulCount = successfulCount,
+                failedCount = failedCount,
+                timestamp = startTime,
+                status = status,
+                errorMessage = errorMessage,
+            )
         importHistoryService.saveHistory(history)
     }
 
     // Extracted request processing for better readability
-    private fun processRequests(requests: List<SpaceMarineImportRequest>): List<ImportResult> {
-        return requests.map { request ->
+    private fun processRequests(requests: List<SpaceMarineImportRequest>): List<ImportResult> =
+        requests.map { request ->
             try {
                 processAndSaveRequest(request)
                 ImportResult.Success(request)
@@ -193,7 +203,6 @@ class ImportResource(
                 ImportResult.Failure(request.name, e.message ?: "Unknown error")
             }
         }
-    }
 
     private fun validateImportRequests(requests: List<SpaceMarineImportRequest>) {
         if (requests.isEmpty()) {
@@ -218,7 +227,7 @@ class ImportResource(
                 }
 
                 request.chapterId != null -> {
-                    if (!chapterRepository.existsById(request.chapterId!!)) {
+                    if (!chapterRepository.findById(request.chapterId!!).isPresent) {
                         errors.add("Record ${index + 1} (${request.name}): Chapter ID ${request.chapterId} does not exist")
                     }
                 }
@@ -226,7 +235,11 @@ class ImportResource(
                 else -> {
                     val chapterViolations = validator.validate(request.chapter)
                     if (chapterViolations.isNotEmpty()) {
-                        errors.add("Record ${index + 1} (${request.name}): Embedded chapter validation failed: ${chapterViolations.joinToString { it.message }}")
+                        errors.add(
+                            "Record ${index + 1} (${request.name}): Embedded chapter validation failed: ${chapterViolations.joinToString {
+                                it.message
+                            }}",
+                        )
                     }
                 }
             }
@@ -242,7 +255,7 @@ class ImportResource(
                 }
 
                 request.coordinatesId != null -> {
-                    if (!coordinatesRepository.existsById(request.coordinatesId!!)) {
+                    if (!coordinatesRepository.findById(request.coordinatesId!!).isPresent) {
                         errors.add("Record ${index + 1} (${request.name}): Coordinates ID ${request.coordinatesId} does not exist")
                     }
                 }
@@ -250,7 +263,11 @@ class ImportResource(
                 else -> {
                     val coordinatesViolations = validator.validate(request.coordinates)
                     if (coordinatesViolations.isNotEmpty()) {
-                        errors.add("Record ${index + 1} (${request.name}): Embedded coordinates validation failed: ${coordinatesViolations.joinToString { it.message }}")
+                        errors.add(
+                            "Record ${index + 1} (${request.name}): Embedded coordinates validation failed: ${coordinatesViolations.joinToString {
+                                it.message
+                            }}",
+                        )
                     }
                 }
             }
@@ -265,51 +282,60 @@ class ImportResource(
     private fun processAndSaveRequest(request: SpaceMarineImportRequest) {
         val chapterId = createOrGetChapter(request.chapter, request.coordinatesId)
 
-        val coordinatesId = createOrGetCoordinates(request.coordinates, request.coordinatesId);
+        val coordinatesId = createOrGetCoordinates(request.coordinates, request.coordinatesId)
 
-        val spaceMarine = SpaceMarine(
-            name = request.name,
-            health = request.health,
-            category = request.category,
-            chapterId = chapterId,
-            coordinatesId = coordinatesId,
-            weaponType = request.weaponType,
-            loyal = request.loyal
-        )
+        val spaceMarine =
+            SpaceMarine(
+                name = request.name,
+                health = request.health,
+                category = request.category,
+                chapterId = chapterId,
+                coordinatesId = coordinatesId,
+                weaponType = request.weaponType,
+                loyal = request.loyal,
+            )
         spaceMarineRepository.save(spaceMarine)
     }
 
-    private fun createOrGetChapter(chapterDto: ChapterEmbedded?, chapterId: Long?): Long {
+    private fun createOrGetChapter(
+        chapterDto: ChapterEmbedded?,
+        chapterId: Long?,
+    ): Long {
         if (chapterId != null && chapterRepository.findById(chapterId).isPresent) {
-            return chapterId;
+            return chapterId
         }
 
         if (chapterDto == null) {
             throw IllegalStateException("Chapter and chapter ID null")
         }
 
-        return chapterRepository.save(
-            Chapter(
-                name = chapterDto.name,
-                marinesCount = chapterDto.marinesCount
-            )
-        ).id
+        return chapterRepository
+            .save(
+                Chapter(
+                    name = chapterDto.name,
+                    marinesCount = chapterDto.marinesCount,
+                ),
+            ).id
     }
 
-    private fun createOrGetCoordinates(coordinatesDto: CoordinatesEmbedded?, coordinatesId: Long?): Long {
+    private fun createOrGetCoordinates(
+        coordinatesDto: CoordinatesEmbedded?,
+        coordinatesId: Long?,
+    ): Long {
         if (coordinatesId != null && coordinatesRepository.findById(coordinatesId).isPresent) {
-            return coordinatesId;
+            return coordinatesId
         }
 
         if (coordinatesDto == null) {
             throw IllegalStateException("Coordinates and CoordinateID null")
         }
 
-        return coordinatesRepository.save(
-            Coordinates(
-                x = coordinatesDto.x,
-                y = coordinatesDto.y
-            )
-        ).id
+        return coordinatesRepository
+            .save(
+                Coordinates(
+                    x = coordinatesDto.x,
+                    y = coordinatesDto.y,
+                ),
+            ).id
     }
 }

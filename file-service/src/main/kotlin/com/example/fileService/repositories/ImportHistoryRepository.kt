@@ -1,5 +1,6 @@
 package com.example.fileService.repositories
 
+import com.example.fileService.annotation.CacheLogged
 import com.example.fileService.model.ImportHistory
 import jakarta.persistence.QueryHint
 import org.springframework.data.jpa.repository.JpaRepository
@@ -9,13 +10,14 @@ import java.util.Optional
 
 @Repository
 interface ImportHistoryRepository : JpaRepository<ImportHistory, Long> {
+    @CacheLogged(entityName = "ImportHistory", logArgs = true, thresholdMs = 100)
     @QueryHints(
         value = [
             QueryHint(
                 name = "org.hibernate.cacheable",
-                value = "true"
-            )
-        ]
+                value = "true",
+            ),
+        ],
     )
     override fun findById(id: Long): Optional<ImportHistory>
 }
